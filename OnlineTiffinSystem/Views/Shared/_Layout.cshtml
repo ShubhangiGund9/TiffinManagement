@@ -1,0 +1,396 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> signinmanager
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - OnlineTiffinSystem</title>
+
+    <link rel="stylesheet"
+          href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <link rel="stylesheet"
+          href="~/css/site.css"
+          asp-append-version="true" />
+
+    <link rel="stylesheet"
+          href="~/OnlineTiffinSystem.styles.css"
+          asp-append-version="true" />
+
+    <style>
+
+        body {
+            background-color: #f4f6f9;
+            overflow-x: hidden;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        /* NAVBAR */
+
+        .navbar {
+            background: linear-gradient(to right, #1e3c72, #2a5298) !important;
+            padding: 12px;
+        }
+
+        .navbar-brand {
+            color: white !important;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar .nav-link,
+        .navbar button {
+            color: white !important;
+            font-weight: 500;
+        }
+
+        /* SIDEBAR */
+
+        .sidebar {
+            min-height: 100vh;
+            background-color: #1f2937;
+            padding-top: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+
+            .sidebar .list-group-item {
+                background-color: transparent;
+                border: none;
+                padding: 12px 20px;
+            }
+
+                .sidebar .list-group-item a {
+                    color: #e5e7eb;
+                    text-decoration: none;
+                    display: block;
+                    font-size: 15px;
+                    transition: 0.3s;
+                }
+
+                .sidebar .list-group-item:hover {
+                    background-color: #374151;
+                    border-radius: 8px;
+                }
+
+                .sidebar .list-group-item a:hover {
+                    color: white;
+                    padding-left: 5px;
+                }
+
+        /* MAIN */
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+            margin-top: 10px;
+        }
+
+        /* FOOTER */
+
+        footer {
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+
+    <header>
+
+        <nav class="navbar navbar-expand-sm navbar-dark mb-3">
+
+            <div class="container-fluid">
+
+                @if (signinmanager.IsSignedIn(User))
+                {
+                    if (User.IsInRole("Admin"))
+                    {
+                        <a class="navbar-brand"
+                           asp-controller="Home"
+                           asp-action="Index">
+
+                            Admin Panel
+
+                        </a>
+                    }
+
+                    else if (User.IsInRole("User"))
+                    {
+                        <a class="navbar-brand"
+                           asp-controller="User"
+                           asp-action="Menu">
+
+                            Homely Tiffins
+
+                        </a>
+                    }
+                }
+
+                else
+                {
+                    <a class="navbar-brand"
+                       asp-controller="Home"
+                       asp-action="Index">
+
+                        OnlineTiffinSystem
+
+                    </a>
+                }
+
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target=".navbar-collapse">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+
+                    <ul class="navbar-nav flex-grow-1">
+                    </ul>
+
+                    @if (signinmanager.IsSignedIn(User))
+                    {
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item">
+                                <form asp-controller="Account"
+                                      asp-action="Logout"
+                                      method="post">
+
+                                    @Html.AntiForgeryToken()
+
+                                    <button type="submit"
+                                            class="nav-link btn btn-link text-white">
+
+                                        Logout @User?.Identity?.Name
+
+                                    </button>
+
+                                </form>
+
+
+                            </li>
+
+                        </ul>
+                    }
+
+                    else
+                    {
+                        <ul class="navbar-nav ms-auto">
+
+                            <li class="nav-item">
+
+                                <a class="nav-link"
+                                   asp-controller="Account"
+                                   asp-action="Register">
+
+                                    Register
+
+                                </a>
+
+                            </li>
+
+                            <li class="nav-item">
+
+                                <a class="nav-link"
+                                   asp-controller="Account"
+                                   asp-action="Login">
+
+                                    Login
+
+                                </a>
+
+                            </li>
+
+                        </ul>
+                    }
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- MAIN LAYOUT -->
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            @if (signinmanager.IsSignedIn(User)
+            && User.IsInRole("Admin"))
+            {
+                <!-- ADMIN SIDEBAR -->
+
+                <div class="col-md-2 sidebar">
+
+                    <ul class="list-group">
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/Dashboard/Index">
+
+                                Dashboard
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/MessDetails/Index">
+
+                                Mess Details
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/Categories/Index">
+
+                                Categories
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/Items/Index">
+
+                                Items
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/DeliveryCharges/Index">
+
+                                Delivery Charges
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/Customer/Index">
+
+                                Customers
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/OrderDetail/Index">
+
+                                OrdersDetails
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/Payments/Index">
+
+                                Payment
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/SpecialMenuThalis/Index">
+
+                                Special Thali
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/AdminArea/MenuThaliItems/Index">
+
+                                Thali Items
+
+                            </a>
+                        </li>
+
+                        <li class="list-group-item">
+                            <a href="/Admin/Index">
+
+                                Manage Roles
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-md-10">
+
+                    <main role="main"
+                          class="pb-3">
+
+                        @RenderBody()
+
+                    </main>
+
+                </div>
+            }
+
+            else
+            {
+
+                <div class="col-md-12">
+
+                    <main role="main"
+                          class="pb-3">
+
+                        @RenderBody()
+
+                    </main>
+
+                </div>
+            }
+
+        </div>
+
+    </div>
+
+
+    <footer class="border-top footer text-muted mt-3">
+
+        <div class="container">
+
+            &copy; 2026 - OnlineTiffinSystem
+
+        </div>
+
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/js/site.js"
+            asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts",
+            required: false)
+
+</body>
+
+</html>

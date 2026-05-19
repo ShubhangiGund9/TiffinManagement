@@ -1,0 +1,147 @@
+﻿@model Project_Model.Models.LoginModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    body {
+        background: url('/images/tiffin-bg.png') no-repeat center center fixed;
+        background-size: cover;
+    }
+   
+
+    main {
+        background: transparent !important;
+    }
+
+    .container,
+    .container-fluid,
+    .pb-3 {
+        background: transparent !important;
+    }
+
+    .login-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 180px;
+    }
+
+    .login-card {
+        width: 400px;
+        background: rgba(255,255,255,0.92);
+        border-radius: 15px;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+        overflow: hidden;
+    }
+
+    .login-header {
+        background-color: #0d47a1;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .login-body {
+        padding: 25px;
+    }
+
+    .btn-login {
+        width: 100%;
+    }
+
+    label {
+        font-weight: 600;
+    }
+
+</style>
+
+<div class="login-container">
+
+    <div class="login-card">
+
+        <div class="login-header">
+            <h2>Tiffin Management System</h2>
+            <h4>Login</h4>
+        </div>
+
+        <div class="login-body">
+
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div>
+                    @Html.ValidationSummary()
+                </div>
+
+                <div class="mb-3">
+
+                    <label>Email Address</label>
+
+                    @Html.TextBoxFor(e => e.EmailAddress,
+                             new
+                             {
+                                 @class = "form-control",
+                                 placeholder = "Enter Email"
+                             })
+
+                    <span style="color:red">
+                        @Html.ValidationMessageFor(e => e.EmailAddress)
+                    </span>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label>Password</label>
+
+                    @Html.PasswordFor(e => e.Password,
+                             new
+                             {
+                                 @class = "form-control",
+                                 placeholder = "Enter Password"
+                             })
+
+                    <span style="color:red">
+                        @Html.ValidationMessageFor(e => e.Password)
+                    </span>
+
+                </div>
+
+                <div class="mb-3">
+
+                    @Html.CheckBoxFor(e => e.RememberMe)
+
+                    <label> Remember Me</label>
+
+                </div>
+
+                <div class="mb-3">
+
+                    <input type="submit"
+                           value="Login"
+                           class="btn btn-primary btn-login" />
+
+                </div>
+            }
+
+            <h5 style="color:red;text-align:center">
+                @ViewBag.msg
+            </h5>
+
+        </div>
+
+    </div>
+
+</div>

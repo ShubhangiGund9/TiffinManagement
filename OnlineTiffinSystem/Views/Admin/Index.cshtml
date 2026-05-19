@@ -1,0 +1,71 @@
+﻿
+
+@model RoleModel
+@using Microsoft.AspNetCore.Identity;
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            @using(Html.BeginForm())
+            {
+                @Html.AntiForgeryToken();
+                <div style="color.Red">
+                    @Html.ValidationSummary()
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <label style="color:blue">Role Detail</label>
+
+                    </div>
+
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <label>Role Name</label>
+                            @Html.TextBoxFor(e=>e.RoleName, new{@class="form-control"})
+                            <span style="color:red">@Html.ValidationMessageFor(e=>e.RoleName)</span>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <input type="submit" value="Submit" class="btn btn-primary" />
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="col-md-6">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>RoleName</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var rolelist = ViewData["Roles"] as List<IdentityRole>;
+                        int i = 1;
+                    }
+                    @foreach(var item in rolelist)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@item.Name</td>
+                            <td>
+                                <a href="/Admin/EditRole?roleId=@item.Id">Edit</a>
+
+                            </td>
+                        </tr>
+                        i++;
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

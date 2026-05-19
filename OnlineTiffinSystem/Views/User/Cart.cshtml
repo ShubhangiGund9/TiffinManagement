@@ -1,0 +1,233 @@
+﻿@{
+    ViewData["Title"] = "Cart";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<style>
+
+    .cart-title {
+        font-size: 40px;
+        font-weight: 700;
+        color: #1f2937;
+    }
+
+    .cart-card {
+        background: white;
+        border-radius: 15px;
+        padding: 20px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .cart-img {
+        width: 90px;
+        height: 90px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .qty-btn {
+        width: 35px;
+        height: 35px;
+        border: none;
+        border-radius: 50%;
+        background: #f59e0b;
+        color: white;
+        font-weight: bold;
+    }
+
+    .remove-btn {
+        border: none;
+        background: #ef4444;
+        color: white;
+        padding: 6px 14px;
+        border-radius: 8px;
+    }
+
+    .summary-card {
+        background: white;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .checkout-btn {
+        background: #16a34a;
+        color: white;
+        border: none;
+        padding: 12px;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+        .checkout-btn:hover {
+            background: #15803d;
+        }
+
+</style>
+
+<div class="container mt-5">
+
+    <div class="row">
+
+        <div class="col-md-8">
+
+            <h1 class="cart-title mb-4">My Cart</h1>
+
+            <div id="cartItems">
+                </div>
+
+        </div>
+
+        <div class="col-md-4">
+            <div class="summary-card">
+
+                <h3 class="mb-4">Bill Details</h3>
+
+                <div class="d-flex justify-content-between mb-3">
+
+                    <span>Sub Total</span>
+                    <span id="subTotal">
+                    </span>
+
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+
+                    <span>Delivery Charge</span>
+
+                    <span>₹ 40</span>
+
+                </div>
+
+                <div class="d-flex justify-content-between mb-3">
+
+                    <span>Tax</span>
+
+                    <span id="taxTotal">
+                    </span>
+
+                </div>
+
+                <hr />
+
+                <div class="d-flex justify-content-between mb-4">
+
+                    <h5>Final Total </h5>
+
+                    <h5 id="finalTotal">
+                    </h5>
+
+                </div>
+
+                <a asp-controller="User"
+                   asp-action="Checkout">
+
+                    <button class="checkout-btn"> Proceed To Checkout</button>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+    let cartHtml = "";
+    let subTotal = 0;
+    let taxTotal = 0;
+    cart.forEach((item,index)=>{
+        let total =item.price * item.qty;
+        let tax =(item.price * item.tax / 100)* item.qty;
+        subTotal += total;
+        taxTotal += tax;
+        cartHtml += `
+
+            <div class="cart-card mb-4">
+                <div class="row align-items-center">
+                    <div class="col-md-2">
+                        <img src="/images/${item.itemPhoto}" class="cart-img"/>
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5>${item.itemName}</h5>
+                        <p class="text-muted"> ₹ ${item.price} </p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <button class="qty-btn" onclick="decreaseQty(${index})">-</button>
+
+                        <span class="mx-3 fw-bold">${item.qty}</span>
+
+                        <button class="qty-btn" onclick="increaseQty(${index})">+</button>
+
+                    </div>
+
+                    <div class="col-md-2">
+                        <h6>₹ ${total}</h6>
+                    </div>
+
+                    <div class="col-md-2">
+                        <button class="remove-btn" onclick="removeItem(${index})">Remove</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        `;
+    });
+
+    document.getElementById("cartItems").innerHTML = cartHtml;
+
+    let deliveryCharge = 40;
+
+    let finalTotal =subTotal + taxTotal + deliveryCharge;
+
+    document.getElementById("subTotal").innerHTML = "₹ " + subTotal;
+
+    document.getElementById("taxTotal").innerHTML = "₹ " + taxTotal;
+
+    document.getElementById("finalTotal").innerHTML = "₹ " + finalTotal;
+
+    function removeItem(index)
+    {
+        cart.splice(index,1);
+        localStorage.setItem("cart",JSON.stringify(cart) );
+        updateCartCount();
+        location.reload();
+    }
+
+    function increaseQty(index)
+    {
+        cart[index].qty++;
+        localStorage.setItem("cart",JSON.stringify(cart));
+
+        updateCartCount();
+        location.reload();
+    }
+
+    function decreaseQty(index)
+    {
+        if(cart[index].qty > 1)
+        {
+            cart[index].qty--;
+        }
+
+        localStorage.setItem(
+            "cart",
+            JSON.stringify(cart)
+        );
+
+        updateCartCount();
+        location.reload();
+    }
+
+</script>

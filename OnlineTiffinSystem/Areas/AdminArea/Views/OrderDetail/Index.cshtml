@@ -1,0 +1,93 @@
+﻿@model IEnumerable<Project_Model.Models.ResponseOrderDetail>
+
+@{
+    ViewData["Title"] = "Orders";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h3>Order Details</h3>
+        </div>
+
+        <div class="card-body">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Customer</th>
+                        <th>Address</th>
+                        <th>PinCode</th>
+                        <th>Total Amount</th>
+                        <th>Status</th>
+                        <th>Order Date</th>
+                        <th>Action</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.OrderDetailId</td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.DeliveryAddress</td>
+                            <td>@item.PinCode</td>
+                            <td>@item.TotalAmount</td>
+                            <td>
+                                <select class="form-control" onchange="ChangeStatus(@item.OrderDetailId,this.value)">
+
+                                    <option value="Pending" selected="@(item.OrderStatus=="Pending")">Pending</option>
+                                    <option value="Preparing" selected="@(item.OrderStatus=="Preparing")">Preparing</option>
+                                    <option value="Out For Delivery" selected="@(item.OrderStatus=="Out For Delivery")">Out For Delivery</option>
+
+                                    <option value="Delivered" selected="@(item.OrderStatus=="Delivered")">Delivered</option>
+                                    <option value="Cancelled" selected="@(item.OrderStatus=="Cancelled")">Cancelled</option>
+                                </select>
+
+                            </td>
+                            <td>@item.OrderAt.ToShortDateString()</td>
+                            <td>
+                                <a href="/AdminArea/OrderDetail/ViewItems/@item.OrderDetailId" class="btn btn-info btn-sm">View Details</a>
+
+                            </td>
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+<script>
+
+    const ChangeStatus = async(id,status) =>
+    {
+        const response =await fetch('/AdminArea/OrderDetail/ChangeStatus',
+            {
+                method:'POST',
+                headers:
+                {
+                    'Content-Type': 'application/json'
+                },
+
+              body: JSON.stringify({
+                        orderDetailId: id,
+                        orderStatus: status
+                     })               
+            }
+        );
+
+        const result = await response.json();
+        alert(result);
+    }
+
+</script>

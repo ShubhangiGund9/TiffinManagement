@@ -1,0 +1,29 @@
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.csproj.AssemblyReference.cache
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.AssemblyInfoInputs.cache
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.AssemblyInfo.cs
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.csproj.CoreCompileInputs.cache
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\bin\Debug\net8.0\Project_Model.deps.json
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\bin\Debug\net8.0\Project_Model.runtimeconfig.json
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\bin\Debug\net8.0\Project_Model.dll
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\bin\Debug\net8.0\Project_Model.pdb
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.dll
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\refint\Project_Model.dll
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.pdb
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.genruntimeconfig.cache
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\ref\Project_Model.dll
+C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\Project_Model\obj\Debug\net8.0\Project_Model.sourcelink.json
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\bin\Debug\net8.0\Project_Model.deps.json
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\bin\Debug\net8.0\Project_Model.runtimeconfig.json
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\bin\Debug\net8.0\Project_Model.dll
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\bin\Debug\net8.0\Project_Model.pdb
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.csproj.AssemblyReference.cache
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.AssemblyInfoInputs.cache
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.AssemblyInfo.cs
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.csproj.CoreCompileInputs.cache
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.dll
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\refint\Project_Model.dll
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.pdb
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\Project_Model.genruntimeconfig.cache
+C:\Users\Shubhangi\Desktop\online tiffin System\Project_Model\obj\Debug\net8.0\ref\Project_Model.dll

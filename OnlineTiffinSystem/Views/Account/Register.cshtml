@@ -1,0 +1,52 @@
+﻿@model Project_Model.Models.RegistrationModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+
+            @using(Html.BeginForm())
+            {
+                 @Html.AntiForgeryToken()
+                   <div style="color:red">
+                        @Html.ValidationSummary()
+                   </div>
+
+
+                   <div class="card">
+                         <div class="card-header">
+                        <h4 style="color:blue">Registration Form</h4>
+                    </div>
+
+                         <div class="card-body">
+                        <div class="mb-3">
+
+                              <label>EmailAddress</label>
+                              @Html.TextBoxFor(e=>e.EmailAddress, new {@class="form-control"})
+                        <span style="color:red">@Html.ValidationMessageFor(e => e.EmailAddress)</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Password</label>
+                            @Html.TextBoxFor(e => e.Password, new { @class = "form-control" })
+                            <span style="color:Red">@Html.ValidationMessageFor(e => e.Password)</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Confirm Passord</label>
+                            @Html.TextBoxFor(e => e.ConfirmPassword, new { @class = "form-control" })
+                            <span style="color:Red">@Html.ValidationMessageFor(e => e.ConfirmPassword)</span>
+                        </div>
+                         </div>
+
+                         <div class="card-footer">
+                             <input type="submit" value="Submit" class="btn btn-primary" />
+                         </div>
+                   </div>
+            }
+        </div>
+
+    </div>
+</div>

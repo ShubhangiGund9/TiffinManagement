@@ -1,0 +1,92 @@
+﻿@using Project_Model.Models
+@model Project_Model.Models.CreateDeliveryCharges
+
+@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+
+    <div class="row">
+
+        <div class="col-md-5">
+
+            @using (Html.BeginForm())
+            {
+                <div class="card shadow-lg border-0">
+
+                    <div class="card-header bg-primary text-white text-center">
+                        <h4 class="mb-0">Add Delivery Charges</h4>
+                    </div>
+
+                    <div class="card-body">
+                        <label class="fw-bold">ChargesFor</label>
+                        @Html.TextBoxFor(e => e.ChargesFor, new { @class = "form-control", placeholder = "Enter ChargesFor" })
+
+                    </div>
+
+                    <div class="card-body">
+                        <label class="fw-bold">Charges</label>
+                        @Html.TextBoxFor(e => e.Charges, new { @class = "form-control", placeholder = "Enter Charges" })
+
+                    </div>
+
+
+                    <div class="card-footer text-center">
+                        <input type="submit" value="Save" class="btn btn-success px-4" />
+                        <a href="/AdminArea/DeliveryCharges/Index" class="btn btn-secondary px-4">Cancel</a>
+                    </div>
+
+                </div>
+            }
+
+        </div>
+
+        <div class="col-md-7">
+
+            <table class="table table-bordered table-striped">
+
+                <thead class="table-dark">
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>ChargesFor</th>
+                        <th>Charges</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    @{
+                        List<TblDeliveryCharges> lst = (List<TblDeliveryCharges>)ViewData["deliverycharge"];
+                        int i = 1;
+                    }
+
+                    @foreach (var item in lst)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@item.ChargesFor</td>
+                            <td>@item.Charges</td>
+                            <td>
+                                <a href="~/AdminArea/DeliveryCharges/Delete/@item.ChargeId"
+                                   class="btn btn-sm btn-danger"
+                                   onclick="return confirm('Are you sure you want to delete this record?')">
+
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                        i++;
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,101 @@
+﻿@{
+    ViewData["Title"] = "Checkout";
+
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="container mt-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="card shadow p-4 border-0 rounded-4">
+
+                <h2 class="text-center mb-4">Checkout</h2>
+
+                <div class="mb-3">
+                    <label class="fw-bold">Delivery Address</label>
+                    <textarea class="form-control" id="address"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <label class="fw-bold">PinCode</label>
+                    <input type="text" class="form-control" id="pincode" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="fw-bold"> Landmark</label>
+                    <input type="text" class="form-control" id="landmark" />
+                </div>
+
+                <div class="mb-3">
+                    <label class="fw-bold">Payment Method </label>
+                    <select class="form-control" id="payment"><option>Cash On Delivery</option>
+                    </select>
+
+                </div>
+
+                <div class="mb-4">
+                    <h4>Grand Total : <span id="grandTotal"></span></h4>
+                </div>
+
+                <button class="btn btn-success w-100" onclick="placeOrder()">Place Order</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+    var cart =JSON.parse(localStorage.getItem("cart")) || [];
+    var total = 0;
+    cart.forEach(function(item)
+    {
+        total +=(item.price * item.qty)+((item.price * item.tax / 100)* item.qty);
+    });
+    total += 40;
+    document.getElementById("grandTotal").innerHTML = total;
+
+    const placeOrder = async () =>
+    {
+        var order =
+        {
+            "DeliveryAddress":document.getElementById("address").value,
+            "PinCode":document.getElementById("pincode").value,
+            "Landmark":document.getElementById("landmark").value,
+            "TotalAmount":total,
+            "Items":
+            cart.map(x => ({
+                "ItemId": x.itemId,
+                "Qty": x.qty,
+                "Price": x.price,
+                "Tax": x.tax
+            }))
+        }
+        console.log(order);
+
+        const response =await fetch('/User/PlaceOrder',
+        {
+            method: 'POST',
+            body: JSON.stringify(order),
+            headers:
+            {
+                "content-type":
+                "application/json"
+            }
+        });
+
+        const data = await response.json();
+        console.log(data);
+        alert("Order Placed Successfully!");
+        localStorage.removeItem("cart");
+        window.location.href = "/User/Menu";
+    }
+
+</script>
+

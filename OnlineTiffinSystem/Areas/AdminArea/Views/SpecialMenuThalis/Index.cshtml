@@ -1,0 +1,170 @@
+﻿@using Microsoft.AspNetCore.Mvc.Rendering
+@using Project_Model.Models
+
+@model Project_Model.Models.CreateDtoSpeciaMenuThali
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="card shadow-lg border-0">
+                <div class="card-header bg-primary text-white text-center">
+                    <h4 class="mb-0">Special Menu Thali</h4>
+                </div>
+
+                <div class="card-body">
+                    <label class="fw-bold">Title</label>
+                    @Html.TextBoxFor(e => e.Title,new{@class = "form-control",placeholder = "Enter Title"})
+                </div>
+
+                <div class="card-body">
+                    <label class="fw-bold">Date</label>
+                    @Html.TextBoxFor(e => e.Date, new{@type = "date",@class = "form-control"})
+                </div>
+
+                <div class="card-body">
+                    <label class="fw-bold">Amount</label>
+                    @Html.TextBoxFor(e => e.Amount,new{@class = "form-control",placeholder = "Enter Amount"})
+                </div>
+
+                <div class="card-body">
+                    <label class="fw-bold">Discount</label>
+                    @Html.TextBoxFor(e => e.Discount,new{@class = "form-control",placeholder = "Enter Discount"})
+                </div>
+                <hr />
+
+                <div class="card-body">
+                    <h5 class="text-primary">Add Thali Items</h5>
+
+                    <div class="row">
+                        <div class="col-md-5">
+                            @Html.DropDownList("dditem",ViewBag.items as SelectList,"Select Item",
+                                new{@class = "form-control",@id = "dditem"})
+                        </div>
+
+                        <div class="col-md-3">
+                            <input type="number" id="txtqty" class="form-control" placeholder="Qty" />
+                        </div>
+
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-success"onclick="AddItem()">Add</button>
+                        </div>
+
+                    </div>
+
+                    <br />
+
+                    <table class="table table-bordered">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Item Name</th>
+                                <th>Quantity</th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="tbldata">
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="card-footer text-center">
+                    <button type="button" class="btn btn-success px-4" onclick="SaveThali()">Save</button>
+                    <a href="/AdminArea/SpecialMenuThalis/Index" class="btn btn-secondary px-4">Cancel</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="col-md-7">
+            <table class="table table-bordered table-striped">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Sr.No</th>
+                        <th>Title</th>
+                        <th>Date</th>
+                        <th>Amount</th>
+                        <th>Discount</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        List<ResponseSpecialThaliDto> lst =(List<ResponseSpecialThaliDto>)ViewData["specialmenu"];
+                        int i = 1;
+                    }
+
+                    @foreach (var item in lst)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@item.Title</td>
+                            <td>@item.Date.ToShortDateString()</td>
+                            <td>@item.Amount</td>
+                            <td>@item.Discount</td>
+                        </tr>
+                        i++;
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script>
+    var items = [];
+    const AddItem = () =>
+    {
+        var itemId =document.getElementById("dditem").value;
+        var itemName =document.getElementById("dditem").options[document.getElementById("dditem").selectedIndex].text;
+        var qty =document.getElementById("txtqty").value;
+        items.push({
+            itemId: itemId,
+            itemName: itemName,
+            quantity: qty
+        });
+
+        var data = "";
+        items.forEach(function(d)
+        {
+            data +=`<tr><td>${d.itemName}</td><td>${d.quantity}</td></tr>`;
+        });
+
+        document.getElementById("tbldata").innerHTML = data;
+    }
+
+    const SaveThali = async () =>
+    {
+        var s =
+        {
+            title:document.getElementById("Title").value,
+            date:document.getElementById("Date").value,
+            amount:document.getElementById("Amount").value,
+            discount:document.getElementById("Discount").value,
+            items:
+            items.map(x => ({
+                itemId: x.itemId,
+                quantity: x.quantity
+            }))
+        };
+
+        const response =await fetch('/AdminArea/SpecialMenuThalis/Index',
+            {
+                method: 'POST',
+                body: JSON.stringify(s),
+                headers:
+                {
+                    "content-type": "application/json"
+                }
+            }
+        );
+        const result = await response.json();
+        alert(result);
+        location.reload();
+    }
+
+</script>

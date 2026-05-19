@@ -1,0 +1,66 @@
+﻿@model Project_Model.Models.EditRoleModel
+@{
+    ViewData["Title"] = "EditRole";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            @using (Html.BeginForm("EditRole","Admin",FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Edit Role</h4>
+                    </div>
+
+                    <div class="card-body">
+                        @Html.HiddenFor(e => e.id)
+
+                        <div class="mb-3">
+                            <label>RoleName</label>
+                            @Html.TextBoxFor(e => e.RoleName, new { @class = "form-control" })
+                        </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="card-footer">
+                        <input type="submit" value="Edit" class="btn btn-primary" />
+                    </div>
+                </div>
+            }
+
+            <div class="mb-3">
+                <h4>Users in this Role</h4>
+
+                @if (Model.User != null && Model.User.Any())
+                {
+                    <ul>
+                        @foreach (var user in Model.User)
+                        {
+                            <li>
+                                @user
+                            </li>
+                        }
+                    </ul>
+                }
+
+                else
+                {
+                    <h2 style="color:red">No User Added Yet!</h2>
+                }
+
+                <a href="/Admin/EditUserInRole?roleid=@Model.id">Add or Remove Users From This Role</a>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

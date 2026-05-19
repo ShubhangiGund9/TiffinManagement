@@ -1,0 +1,307 @@
+﻿@model IEnumerable<Project_Model.Models.ResponseItemDto>
+
+@{
+    ViewData["Title"] = "Menu";
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<div class="container mt-4">
+
+    <h2 class="text-danger mb-4">
+
+        Today's Special Thali
+
+    </h2>
+
+    <div class="row mb-5">
+
+        @if (ViewBag.special != null)
+        {
+            foreach (var thali in ViewBag.special)
+            {
+                <div class="col-md-4 mb-4">
+
+                    <div class="card shadow border-0">
+
+                        <div class="card-body text-center">
+
+                            <h4 class="text-primary">
+
+                                @thali.Title
+
+                            </h4>
+
+                            <h5 class="text-success">
+
+                                ₹ @thali.Amount
+
+                            </h5>
+
+                            <p class="text-muted">
+
+                                @foreach (var i in thali.Items)
+                                {
+                                    @i <span>, </span>
+                                }
+
+                            </p>
+                            <h6 class="text-danger">
+
+                                Discount :
+                                @thali.Discount %
+
+                            </h6>
+
+                            <button class="btn btn-warning"
+                                    onclick="AddSpecialThali('@thali.ThaliId',
+                                                             '@thali.Title',
+                                                             '@thali.Amount')">
+
+                                Add To Cart
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+        }
+
+    </div>
+
+    <hr />
+
+    <div class="row">
+
+        @foreach (var item in Model)
+        {
+            <div class="col-md-3 mb-4">
+
+                <div class="card shadow">
+
+                    <img src="~/images/@item.ItemPhoto"
+                         class="card-img-top"
+                         height="200" />
+
+                    <div class="card-body text-center">
+
+                        <h5>
+
+                            @item.ItemName
+
+                        </h5>
+
+                        <p>
+
+                            ₹ @item.Price
+
+                        </p>
+
+                        <div id="cartDiv_@item.ItemId">
+
+                            <button class="btn btn-success"
+                                    onclick="addToCart('@item.ItemId',
+                                                       '@item.ItemName',
+                                                       '@item.Price',
+                                                       '@item.ItemPhoto',
+                                                       '@item.Tax')">
+
+                                Add To Cart
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+
+    </div>
+
+</div>
+
+<p id="msg"
+   class="text-success fw-bold text-center">
+</p>
+
+<script>
+
+    let cart =
+    JSON.parse(localStorage.getItem("cart")) || [];
+
+    window.onload = function ()
+    {
+        cart.forEach(function(item)
+        {
+            showQtyButtons(item.itemId, item.qty);
+        });
+    }
+
+    function addToCart
+    (
+        id,
+        name,
+        price,
+        photo,
+        tax
+    )
+    {
+        let existing =
+        cart.find(function(x)
+        {
+            return x.itemId == id;
+        });
+
+        if(existing)
+        {
+            existing.qty++;
+        }
+        else
+        {
+            cart.push({
+                itemId: id,
+                itemName: name,
+                price: price,
+                itemPhoto: photo,
+                tax: tax,
+                qty: 1
+            });
+        }
+
+        localStorage.setItem
+        (
+            "cart",
+            JSON.stringify(cart)
+        );
+
+        showQtyButtons(id, 1);
+    }
+
+    function AddSpecialThali
+    (
+        id,
+        name,
+        amount
+    )
+    {
+        let existing =
+        cart.find(function(x)
+        {
+            return x.itemId == id;
+        });
+
+        if(existing)
+        {
+            existing.qty++;
+        }
+        else
+        {
+            cart.push({
+                itemId: id,
+                itemName: name,
+                price: amount,
+                itemPhoto: "thali.png",
+                tax: 0,
+                qty: 1
+            });
+        }
+
+        localStorage.setItem
+        (
+            "cart",
+            JSON.stringify(cart)
+        );
+
+        alert("Special Thali Added To Cart");
+    }
+
+    function showQtyButtons(id, qty)
+    {
+        let html = "";
+
+        html += '<div class="d-flex align-items-center justify-content-center">';
+
+        html += '<button class="btn btn-warning btn-sm" onclick="decreaseQty(' + id + ')">-</button>';
+
+        html += '<span class="mx-3 fw-bold" id="qty_' + id + '">' + qty + '</span>';
+
+        html += '<button class="btn btn-warning btn-sm" onclick="increaseQty(' + id + ')">+</button>';
+
+        html += '</div>';
+
+        document.getElementById("cartDiv_" + id).innerHTML = html;
+    }
+
+    function increaseQty(id)
+    {
+        let item =
+        cart.find(function(x)
+        {
+            return x.itemId == id;
+        });
+
+        item.qty++;
+
+        localStorage.setItem
+        (
+            "cart",
+            JSON.stringify(cart)
+        );
+
+        document.getElementById("qty_" + id).innerHTML = item.qty;
+    }
+
+    function decreaseQty(id)
+    {
+        let item =
+        cart.find(function(x)
+        {
+            return x.itemId == id;
+        });
+
+        if(item.qty > 1)
+        {
+            item.qty--;
+        }
+        else
+        {
+            cart =
+            cart.filter(function(x)
+            {
+                return x.itemId != id;
+            });
+
+            let btn = "";
+
+            btn += '<button class="btn btn-success" ';
+            btn += 'onclick="addToCart(';
+            btn += "'" + item.itemId + "',";
+            btn += "'" + item.itemName + "',";
+            btn += "'" + item.price + "',";
+            btn += "'" + item.itemPhoto + "',";
+            btn += "'" + item.tax + "'";
+            btn += ')">';
+
+            btn += 'Add To Cart</button>';
+
+            document.getElementById("cartDiv_" + id).innerHTML = btn;
+        }
+
+        localStorage.setItem
+        (
+            "cart",
+            JSON.stringify(cart)
+        );
+
+        if(document.getElementById("qty_" + id))
+        {
+            document.getElementById("qty_" + id).innerHTML = item.qty;
+        }
+    }
+
+</script>
