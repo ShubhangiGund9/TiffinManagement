@@ -40,20 +40,16 @@
                             <td>@item.TotalAmount</td>
                             <td>
                                 <select class="form-control" onchange="ChangeStatus(@item.OrderDetailId,this.value)">
-
                                     <option value="Pending" selected="@(item.OrderStatus=="Pending")">Pending</option>
                                     <option value="Preparing" selected="@(item.OrderStatus=="Preparing")">Preparing</option>
                                     <option value="Out For Delivery" selected="@(item.OrderStatus=="Out For Delivery")">Out For Delivery</option>
-
                                     <option value="Delivered" selected="@(item.OrderStatus=="Delivered")">Delivered</option>
                                     <option value="Cancelled" selected="@(item.OrderStatus=="Cancelled")">Cancelled</option>
                                 </select>
-
                             </td>
                             <td>@item.OrderAt.ToShortDateString()</td>
                             <td>
                                 <a href="/AdminArea/OrderDetail/ViewItems/@item.OrderDetailId" class="btn btn-info btn-sm">View Details</a>
-
                             </td>
                         </tr>
                     }

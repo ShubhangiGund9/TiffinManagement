@@ -4,15 +4,22 @@ namespace OnlineTiffinSystem.Models
 {
     public class RegistrationModel
     {
-        [Required(ErrorMessage ="Enter Valid Email")]
-        [EmailAddress(ErrorMessage ="Invalid Email Address")]
+        [Required(ErrorMessage = "Enter Valid Email")]
+        [EmailAddress(ErrorMessage = "Invalid Email Address")]
         public string EmailAddress { get; set; }
-        [MinLength(8,ErrorMessage ="Password Length minimum 8 character")]
-        [Required(ErrorMessage ="Please Enter correct Password")]
+        [MinLength(8, ErrorMessage = "Password Length minimum 8 character")]
+        [Required(ErrorMessage = "Please Enter correct Password")]
         public string Password { get; set; }
 
         [Required(ErrorMessage = "Enter confirm Password")]
-        [Compare("Password",ErrorMessage ="Not Valid")]
-        public string ConfirmPassword {  get; set; }
+        [Compare("Password", ErrorMessage = "Not Valid")]
+        public string ConfirmPassword { get; set; }
+
+        public string CustomerName { get; set; }
+
+        public string CustomerAddress { get; set; }
+
+        public string MobileNo { get; set; }
+
     }
 }

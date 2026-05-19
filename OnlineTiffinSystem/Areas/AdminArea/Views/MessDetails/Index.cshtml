@@ -17,41 +17,31 @@
                 <div class="card shadow-lg border-0">
 
                     <div class="card-header bg-primary text-white text-center">
-
                         <h4 class="mb-0">Add Mess Details</h4>
-
                     </div>
 
                     <div class="card-body">
-
                         <label class="fw-bold">Mess Name</label>                     
                         @Html.TextBoxFor(e => e.MessName,new{@class = "form-control",placeholder = "Enter Mess Name"})
-
                         <br />
 
                         <label class="fw-bold">Owner Name</label>
                         @Html.TextBoxFor(e => e.OwnerName, new { @class = "form-control", placeholder = "Enter Owner Name" })
-
 
                         <br />
 
                         <label class="fw-bold">Address</label>
                         @Html.TextAreaFor(e => e.Address, new { @class = "form-control", placeholder = "Enter Address", rows = "3" })
 
-
-
                         <br />
 
                         <label class="fw-bold"> Email Address</label>
                         @Html.TextBoxFor(e => e.EmailAddress, new { @class = "form-control", placeholder = "Enter Email Address" })
 
-
                         <br />
 
                         <label class="fw-bold">Password</label>
                         @Html.PasswordFor(e => e.Password, new { @class = "form-control", placeholder = "Enter Password" })
-
-
 
                         <br />
 
@@ -64,10 +54,8 @@
                         @Html.TextBoxFor(e => e.AlternativeNo,new{@class = "form-control",placeholder = "Enter Alternative Number"})                    </div>
 
                     <div class="card-footer text-center">
-
                         <input type="submit" value="Save" class="btn btn-success px-4" />
                         <a href="/AdminArea/MessDetails/Index" class="btn btn-secondary px-4">Cancel</a>
-
                     </div>
 
                 </div>
@@ -78,9 +66,7 @@
         <div class="col-md-7">
 
             <table class="table table-bordered table-striped">
-
                 <thead class="table-Hover">
-
                     <tr>
                         <th>Sr.No</th>
                         <th>Mess Name</th>
@@ -89,29 +75,22 @@
                         <th>Mobile Number</th>
                         <th>Alternative Number</th>
                     </tr>
-
                 </thead>
-
                 <tbody>
-
                     @{
                         List<TblMessDetail> lst = (List<TblMessDetail>)ViewData["mess"];
                         int i = 1;
                     }
-
                     @foreach (var item in lst)
                     {
                         <tr>
-
                             <td>@i</td>
                             <td>@item.MessName</td>
                             <td>@item.OwnerName</td>
                             <td>@item.EmailAddress</td>
                             <td>@item.MobileNo</td>
                             <td>@item.AlternativeNo</td>
-
                         </tr>
-
                         i++;
                     }
 

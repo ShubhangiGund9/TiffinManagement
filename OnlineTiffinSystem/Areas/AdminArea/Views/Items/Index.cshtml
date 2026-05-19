@@ -26,7 +26,6 @@
                         <div class="mb-3">
                             @Html.HiddenFor(e=>e.ItemId)
                             <label>Category</label>
-
                             @Html.DropDownListFor(e => e.Category,ViewBag.categories as SelectList,"Select Category",new { @class = "form-control" }          )
                         </div>
 
@@ -42,7 +41,6 @@
 
                         <div class="mb-3">
                             <label>Description</label>
-
                             @Html.TextAreaFor(e => e.Description,new{@class = "form-control",placeholder = "Enter Description"})
                         </div>
 
@@ -59,20 +57,15 @@
                         <div class="form-check mb-3">
                             @Html.CheckBoxFor(e => e.IsVegeterian,new { @class = "form-check-input" })
 
-                            <label class="form-check-label">
-                                Is Vegetarian
-                            </label>
+                            <label class="form-check-label">Is Vegetarian</label>
 
                         </div>
 
                     </div>
 
                     <div class="card-footer text-center">
-
                         <input type="submit" value="Save" class="btn btn-success px-4" />
-
                         <a href="/AdminArea/Items/Index" class="btn btn-secondary px-4">Cancel</a>
-
                     </div>
 
                 </div>
@@ -86,7 +79,6 @@
             <table class="table table-bordered table-striped">
 
                 <thead class="table-dark">
-
                     <tr>
                         <th>Sr.No</th>
                         <th>Category Name</th>
@@ -109,23 +101,18 @@
                     @foreach (var item in lst)
                     {
                         <tr>
-
                             <td>@i</td>
                             <td>@item.CategoryName</td>
                             <td>@item.ItemName</td>
                             <td>@item.Price</td>
                             <td>
-                                <img src="~/Images/@item.ItemPhoto"
-                                     width="80"
-                                     height="80" />
+                                <img src="~/Images/@item.ItemPhoto" width="80" height="80" />
                             </td>
                            
                             <td>
-
                                 <a href="~/AdminArea/Items/Edit/@item.ItemId" class="btn btn-danger btn-sm">Edit</a>
                                 <br/>
-                                <a href="~/AdminArea/Items/Delete/@item.ItemId" class="btn btn-danger btn-sm"
-                                   onclick="return confirm('Are you sure?')">Delete</a>
+                                <a href="~/AdminArea/Items/Delete/@item.ItemId" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure?')">Delete</a>
 
                             </td>
 

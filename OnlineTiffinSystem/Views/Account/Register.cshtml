@@ -39,7 +39,25 @@
                             @Html.TextBoxFor(e => e.ConfirmPassword, new { @class = "form-control" })
                             <span style="color:Red">@Html.ValidationMessageFor(e => e.ConfirmPassword)</span>
                         </div>
-                         </div>
+
+                        <div class="mb-3">
+                            <label>Name</label>
+                            @Html.TextBoxFor(e => e.CustomerName, new { @class = "form-control" })
+                            <span style="color:Red">@Html.ValidationMessageFor(e => e.CustomerName)</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Address</label>
+                            @Html.TextBoxFor(e => e.CustomerAddress, new { @class = "form-control" })
+                            <span style="color:Red">@Html.ValidationMessageFor(e => e.CustomerAddress)</span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>MobileNo</label>
+                            @Html.TextBoxFor(e => e.MobileNo, new { @class = "form-control" })
+                            <span style="color:Red">@Html.ValidationMessageFor(e => e.MobileNo)</span>
+                        </div>
+                         </div>                         
 
                          <div class="card-footer">
                              <input type="submit" value="Submit" class="btn btn-primary" />

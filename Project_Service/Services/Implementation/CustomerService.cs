@@ -16,8 +16,8 @@ namespace Project_Service.Services.Implemenation
         
         public async Task AddCustomer(CreateDtoCustomer customer)
         {
-            string query = @"Insert into TblCustomer(CustomerName,EmailAddress,CustomerAddress, MobileNo,Password)
-                             Values(@CustomerName,@EmailAddress,@CustomerAddress,@MobileNo,@Password)";
+            string query = @"Insert into TblCustomer(CustomerName,EmailAddress,CustomerAddress,MobileNo,Password,CreatedAt,Id)
+Values(@CustomerName,@EmailAddress,@CustomerAddress,@MobileNo,@Password,GETDATE(),@Id)";
             using (var con = _context.CreateConnection())
             {
                 await con.ExecuteAsync(query,customer);

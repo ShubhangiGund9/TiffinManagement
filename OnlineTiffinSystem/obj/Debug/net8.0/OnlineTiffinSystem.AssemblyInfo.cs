@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OnlineTiffinSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+480f1b864a1f1477507a9cc2240aef8240314d68")]
 [assembly: System.Reflection.AssemblyProductAttribute("OnlineTiffinSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OnlineTiffinSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

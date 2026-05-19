@@ -10,19 +10,18 @@ namespace OnlineTiffinSystem.Controllers
     {
         RoleManager<IdentityRole> rolemanager;
         UserManager<IdentityUser> userManager;
-
         public AdminController(RoleManager<IdentityRole> rolemanager, UserManager<IdentityUser> userManager)
         {
             this.rolemanager = rolemanager;
             this.userManager = userManager;
         }
-
-        public async Task< IActionResult> Index()
+        public async Task<IActionResult> Index()
         {
             List<IdentityRole> roles = await rolemanager.Roles.ToListAsync();
-            ViewData["Roles"]=roles;
+            ViewData["Roles"] = roles;
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult>Index(RoleModel rm)
@@ -57,11 +56,9 @@ namespace OnlineTiffinSystem.Controllers
                     }
                 }
             }
-
             List<IdentityRole> roles = await rolemanager.Roles.ToListAsync();
             ViewData["roles"] = roles;
             return View();
-
         }
 
         public async Task<IActionResult> EditRole(string roleid)
@@ -73,9 +70,9 @@ namespace OnlineTiffinSystem.Controllers
                 RoleName = role.Name,
                 User = new List<string>()
             };
-            foreach(var user in userManager.Users.ToList())
+            foreach (var user in userManager.Users.ToList())
             {
-                if(await userManager.IsInRoleAsync(user,role.Name))
+                if (await userManager.IsInRoleAsync(user, role.Name))
                 {
                     model.User.Add(user.UserName);
                 }
@@ -83,6 +80,7 @@ namespace OnlineTiffinSystem.Controllers
             return View(model);
 
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditRole(EditRoleModel model)
@@ -171,8 +169,8 @@ namespace OnlineTiffinSystem.Controllers
                 IdentityResult? result;
                 if (umodel[i].IsSelected && !( await userManager.IsInRoleAsync(user,role.Name)))
                     {
-                    result = await userManager.AddToRoleAsync(user, role.Name);
-                }
+                       result = await userManager.AddToRoleAsync(user, role.Name);
+                    }
                 else if (!umodel[i].IsSelected && (await userManager.IsInRoleAsync(user,role.Name)))
                 {
                     result = await userManager.RemoveFromRoleAsync(user, role.Name);

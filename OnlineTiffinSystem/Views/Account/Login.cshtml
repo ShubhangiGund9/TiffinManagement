@@ -88,51 +88,24 @@
                 <div class="mb-3">
 
                     <label>Email Address</label>
-
-                    @Html.TextBoxFor(e => e.EmailAddress,
-                             new
-                             {
-                                 @class = "form-control",
-                                 placeholder = "Enter Email"
-                             })
-
-                    <span style="color:red">
-                        @Html.ValidationMessageFor(e => e.EmailAddress)
-                    </span>
-
+                    @Html.TextBoxFor(e => e.EmailAddress,new{@class = "form-control",placeholder = "Enter Email"})
+                    <span style="color:red">@Html.ValidationMessageFor(e => e.EmailAddress)</span>
                 </div>
 
                 <div class="mb-3">
-
                     <label>Password</label>
-
-                    @Html.PasswordFor(e => e.Password,
-                             new
-                             {
-                                 @class = "form-control",
-                                 placeholder = "Enter Password"
-                             })
-
-                    <span style="color:red">
-                        @Html.ValidationMessageFor(e => e.Password)
-                    </span>
-
+                    @Html.PasswordFor(e => e.Password,new{@class = "form-control",placeholder = "Enter Password"})
+                    <span style="color:red">@Html.ValidationMessageFor(e => e.Password)</span>
                 </div>
 
                 <div class="mb-3">
-
                     @Html.CheckBoxFor(e => e.RememberMe)
-
                     <label> Remember Me</label>
 
                 </div>
 
                 <div class="mb-3">
-
-                    <input type="submit"
-                           value="Login"
-                           class="btn btn-primary btn-login" />
-
+                    <input type="submit" value="Login" class="btn btn-primary btn-login" />
                 </div>
             }
 

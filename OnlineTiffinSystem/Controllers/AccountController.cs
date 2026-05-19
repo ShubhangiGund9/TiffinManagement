@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 //using OnlineTiffinSystem.Models;
 
 using Project_Model.Models;
+using Project_Service.Services.Interface;
 
 namespace OnlineTiffinSystem.Controllers
 {
@@ -10,11 +11,12 @@ namespace OnlineTiffinSystem.Controllers
     {
         SignInManager<IdentityUser> signinmanager;
         UserManager<IdentityUser> usermanager;
-
-        public AccountController(SignInManager<IdentityUser> signInManager,UserManager<IdentityUser> usermanager)
+        ICustomerService _customerService;
+        public AccountController(SignInManager<IdentityUser> signInManager,UserManager<IdentityUser> usermanager,ICustomerService customerService)
         {
             this.signinmanager = signInManager;
             this.usermanager = usermanager;
+            _customerService = customerService;
         }
         public IActionResult Index()
         {
@@ -42,6 +44,16 @@ namespace OnlineTiffinSystem.Controllers
                 var result = await usermanager.CreateAsync(user, e.Password);
                 if(result.Succeeded)
                 {
+                    CreateDtoCustomer customer = new CreateDtoCustomer();                   
+
+                    customer.CustomerName =e.CustomerName;
+                    customer.EmailAddress =e.EmailAddress;
+                    customer.CustomerAddress =e.CustomerAddress;
+                    customer.MobileNo =e.MobileNo;
+                    customer.Password =e.Password;
+                    customer.Id = user.Id;
+                   
+                    await _customerService.AddCustomer(customer);
                     await signinmanager.SignInAsync(user, isPersistent: false);
                     return RedirectToAction("Login", "Account");
                 }
@@ -100,7 +112,6 @@ namespace OnlineTiffinSystem.Controllers
         public async Task<IActionResult> Logout()
         {
             await signinmanager.SignOutAsync();
-
             return RedirectToAction("Login", "Account");
         }
 

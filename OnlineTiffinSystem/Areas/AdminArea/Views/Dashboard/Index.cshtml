@@ -1,0 +1,64 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <h2 class="mb-4">Admin Dashboard</h2>
+
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card shadow bg-primary text-white">
+                <div class="card-body text-center">
+                    <h3>@ViewBag.TotalCustomers</h3>
+                    <h5>Total Customers</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card shadow bg-success text-white">
+                <div class="card-body text-center">
+                    <h3>@ViewBag.TotalItems</h3>
+                    <h5>Total Items</h5>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card shadow bg-warning text-dark">
+                <div class="card-body text-center">
+                    <h3>@ViewBag.TotalOrders</h3>
+                    <h5>Total Orders</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 mb-4">
+            <div class="card shadow bg-danger text-white">
+                <div class="card-body text-center">
+                    <h3>@ViewBag.PendingOrders</h3>
+                    <h5>Pending Orders</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 mb-4">
+            <div class="card shadow bg-info text-white">
+                <div class="card-body text-center">
+                    <h3>@ViewBag.DeliveredOrders</h3>
+                    <h5>Delivered Orders</h5>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

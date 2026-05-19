@@ -12,15 +12,52 @@ namespace Project_Service.Services.Implemenation
             _context = context;
         }
 
-        public async Task AddOrderDetail(CreateDtoOderDetail orderDetail)
+        public async Task<int> AddOrderDetail
+  (
+      CreateDtoOderDetail orderDetail
+  )
         {
-          string query = @"Insert into TblOrderDetail(Customer,OrderStatus,PinCode,DeliveryAddress,TotalAmount,Landmark,ExtraCharges,Discount,Charge) 
-          Values(@Customer,@OrderStatus,@PinCode,@DeliveryAddress,@TotalAmount,@Landmark,@ExtraCharges,@Discount,@Charge)";
+            string query = @"
+
+    Insert into TblOrderDetail
+    (
+        Customer,
+        OrderStatus,
+        PinCode,
+        DeliveryAddress,
+        TotalAmount,
+        Landmark,
+        ExtraCharges,
+        Discount,
+        Charge
+    )
+
+    output inserted.OrderDetailId
+
+    Values
+    (
+        @Customer,
+        @OrderStatus,
+        @PinCode,
+        @DeliveryAddress,
+        @TotalAmount,
+        @Landmark,
+        @ExtraCharges,
+        @Discount,
+        @Charge
+    )";
+
             using (var con = _context.CreateConnection())
             {
-                await con.ExecuteAsync(query, orderDetail);
+                int id =
+                await con.ExecuteScalarAsync<int>
+                (
+                    query,
+                    orderDetail
+                );
+
+                return id;
             }
-                           
         }
 
         public async Task DeleteOrderDetail(int id)

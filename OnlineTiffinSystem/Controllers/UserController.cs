@@ -11,13 +11,15 @@ namespace OnlineTiffinSystem.Controllers
         ICustomerService _customerService;
         IOrderDetailService _orderDetailService;
         ISpecialMenuThaliService _specialMenuThaliService;
+        IOrderItemService _orderItemService;
 
-        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService)
+        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService)
         {
             _itemService = itemService;
             _customerService = customerService;
             _orderDetailService = orderDetailService;
             _specialMenuThaliService = specialMenuThaliService;
+            _orderItemService = orderItemService;
         }
         public async Task<IActionResult> Menu()
         {
@@ -38,16 +40,26 @@ namespace OnlineTiffinSystem.Controllers
         [HttpPost]
         public async Task<IActionResult> PlaceOrder([FromBody] CreateDtoOderDetail od)
         {
-            var customers =await _customerService.GetAllCustomer();
+            var customers = await _customerService.GetAllCustomer();
+            Console.WriteLine(User.Identity.Name);
+
             var customer = customers.FirstOrDefault(x =>
             x.EmailAddress == User.Identity.Name);
+
             od.Customer = customer.CustomerId;
             od.OrderStatus = "Pending";
             od.Charge = 1;
             od.ExtraCharges = 40;
             od.Discount = 0;
-            await _orderDetailService.AddOrderDetail(od);
-
+            var orderId =await _orderDetailService.AddOrderDetail(od);
+            foreach (var item in od.Items)
+            {
+                CreateOrderItemDto oi =new CreateOrderItemDto();
+                oi.OrderDetail = orderId;
+                oi.Item = item.ItemId;
+                oi.Quantity = item.Qty;
+                await _orderItemService.AddOrderItem(oi);
+            }
             return Json("Order Saved Successfully");
         }
 
