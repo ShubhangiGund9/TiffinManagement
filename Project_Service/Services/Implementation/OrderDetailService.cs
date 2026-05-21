@@ -11,55 +11,15 @@ namespace Project_Service.Services.Implemenation
         {
             _context = context;
         }
-
-        public async Task<int> AddOrderDetail
-  (
-      CreateDtoOderDetail orderDetail
-  )
+        public async Task<int> AddOrderDetail(CreateDtoOderDetail orderDetail)
         {
-            string query = @"
-
-    Insert into TblOrderDetail
-    (
-        Customer,
-        OrderStatus,
-        PinCode,
-        DeliveryAddress,
-        TotalAmount,
-        Landmark,
-        ExtraCharges,
-        Discount,
-        Charge
-    )
-
-    output inserted.OrderDetailId
-
-    Values
-    (
-        @Customer,
-        @OrderStatus,
-        @PinCode,
-        @DeliveryAddress,
-        @TotalAmount,
-        @Landmark,
-        @ExtraCharges,
-        @Discount,
-        @Charge
-    )";
-
+            string query = @"Insert into TblOrderDetail(Customer,OrderStatus,PinCode,DeliveryAddress,TotalAmount,Landmark,ExtraCharges,Discount,Charge) values (@Customer,@OrderStatus,@PinCode,@DeliveryAddress,@TotalAmount,@Landmark,@ExtraCharges,@Discount, @Charge);select cast(scope_identity() as int)";
             using (var con = _context.CreateConnection())
             {
-                int id =
-                await con.ExecuteScalarAsync<int>
-                (
-                    query,
-                    orderDetail
-                );
-
+                int id =await con.ExecuteScalarAsync<int>(query,orderDetail);
                 return id;
             }
         }
-
         public async Task DeleteOrderDetail(int id)
         {
             string query = "Delete From TblOrderDetail where OrderDetailId=@id";
@@ -73,9 +33,9 @@ namespace Project_Service.Services.Implemenation
         {
             string query = @"Select od.OrderDetailId,c.CustomerName, od.OrderStatus,od.PinCode,od.DeliveryAddress,
                            od.OrderAt,od.DeliveryAt,od.TotalAmount,od.Landmark,od.ExtraCharges,
-                          od.Discount,dc.ChargesFor from TblOrderDetail od join TblCustomer c 
+                           od.Discount,dc.ChargesFor from TblOrderDetail od join TblCustomer c 
                            on od.Customer = c.CustomerId
-                          join TblDeliveryCharges dc on od.Charge = dc.ChargeId";
+                           join TblDeliveryCharges dc on od.Charge = dc.ChargeId";
 
             using (var con = _context.CreateConnection())
             {
@@ -88,7 +48,7 @@ namespace Project_Service.Services.Implemenation
         {
             string query = @"Select od.OrderDetailId, c.CustomerName, od.OrderStatus,od.PinCode,od.DeliveryAddress,
                            od.OrderAt,od.DeliveryAt,od.TotalAmount,od.Landmark,od.ExtraCharges,
-                          od.Discount,dc.ChargesFor from TblOrderDetail od join TblCustomer c 
+                           od.Discount,dc.ChargesFor from TblOrderDetail od join TblCustomer c 
                            on od.Customer = c.CustomerId
                           join TblDeliveryCharges dc on od.Charge = dc.ChargeId Where OrderDetailId=@Id";
             using( var con = _context.CreateConnection())
@@ -102,7 +62,6 @@ namespace Project_Service.Services.Implemenation
         public async Task UpdateOrderDetail(UpdateDtoOrderDetailItem orderDetail)
         {
             string query = @"Update TblOrderDetail set OrderStatus = @OrderStatus Where OrderDetailId = @OrderDetailId";
-
             using (var con = _context.CreateConnection())
             {
                 await con.ExecuteAsync(query,orderDetail);

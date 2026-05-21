@@ -33,8 +33,8 @@ namespace Project_Service.Services.Implemenation
         public async Task<List<ResponseMenuThaliItemDto>> GetAllMenuThaliItem()
         {
             string query = @"SELECT mt.ThaliItemId,smt.Title,i.ItemName,mt.Quantity
-                FROM TblMenuThaliItem mt JOIN TblSpecialMenuThali smt
-                ON mt.Thali = smt.ThaliId JOIN TblItem i ON mt.Item = i.ItemId";
+                           FROM TblMenuThaliItem mt JOIN TblSpecialMenuThali smt
+                           ON mt.Thali = smt.ThaliId JOIN TblItem i ON mt.Item = i.ItemId";
             using (var con = _context.CreateConnection())
             {
                 var result=await con.QueryAsync<ResponseMenuThaliItemDto>(query);
