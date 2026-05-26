@@ -64,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXE9yZGVyRGV0YWlsXFZpZXdJdGVtcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Shubhangi/Desktop/online tiffin System/OnlineTiffinSystem/Areas/AdminArea/Views/Payment/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXFBheW1lbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Shubhangi/Desktop/online tiffin System/OnlineTiffinSystem/Areas/AdminArea/Views/SpecialMenuThalis/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5BcmVhXFZpZXdzXFNwZWNpYWxNZW51VGhhbGlzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -118,6 +122,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Shubhangi/Desktop/online tiffin System/OnlineTiffinSystem/Views/User/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Shubhangi/Desktop/online tiffin System/OnlineTiffinSystem/Views/User/MyOrders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxNeU9yZGVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Shubhangi/Desktop/online tiffin System/OnlineTiffinSystem/Views/_ViewImports.cshtml]

@@ -55,7 +55,7 @@ namespace Project_Service.Services.Implemenation
             {
                 var result=await con.QueryFirstOrDefaultAsync<ResponseOrderDetail>(query, new {Id=id});
                 return result;
-               
+
             }
         }
 
@@ -64,7 +64,19 @@ namespace Project_Service.Services.Implemenation
             string query = @"Update TblOrderDetail set OrderStatus = @OrderStatus Where OrderDetailId = @OrderDetailId";
             using (var con = _context.CreateConnection())
             {
-                await con.ExecuteAsync(query,orderDetail);
+                await con.ExecuteAsync(query, orderDetail);
+            }
+        }
+        public async Task<List<ResponseOrderDetail>>GetOrdersByCustomer(int customerId)
+        {
+            string query = @"select od.OrderDetailId,c.CustomerName, od.OrderStatus,od.PinCode,od.DeliveryAddress,od.OrderAt,od.DeliveryAt,od.TotalAmount,od.Landmark,od.ExtraCharges, od.Discount,dc.ChargesFor
+                           from TblOrderDetail od join TblCustomer c on od.Customer = c.CustomerId
+                           join TblDeliveryCharges dc on od.Charge = dc.ChargeId
+                           where od.Customer = @customerId order by od.OrderDetailId desc";
+            using (var con =_context.CreateConnection())
+            {
+                var result =await con.QueryAsync<ResponseOrderDetail>(query,new { customerId });
+                return result.ToList();
             }
         }
     }

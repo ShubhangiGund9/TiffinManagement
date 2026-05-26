@@ -12,20 +12,20 @@ namespace OnlineTiffinSystem.Controllers
         IOrderDetailService _orderDetailService;
         ISpecialMenuThaliService _specialMenuThaliService;
         IOrderItemService _orderItemService;
-
-        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService)
+        IPaymentService _paymentService;
+        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService, IPaymentService paymentService)
         {
             _itemService = itemService;
             _customerService = customerService;
             _orderDetailService = orderDetailService;
             _specialMenuThaliService = specialMenuThaliService;
             _orderItemService = orderItemService;
+            _paymentService = paymentService;
         }
         public async Task<IActionResult> Menu()
         {
             var data = await _itemService.GetAllItem();
-            ViewBag.special =    await _specialMenuThaliService
-    .GetAllSpecialMenuThalis();
+            ViewBag.special = await _specialMenuThaliService.GetAllSpecialMenuThalis();
             return View(data);
         }
 
@@ -45,16 +45,23 @@ namespace OnlineTiffinSystem.Controllers
 
             var customer = customers.FirstOrDefault(x =>
             x.EmailAddress == User.Identity.Name);
-
             od.Customer = customer.CustomerId;
             od.OrderStatus = "Pending";
             od.Charge = 1;
             od.ExtraCharges = 40;
             od.Discount = 0;
-            var orderId =await _orderDetailService.AddOrderDetail(od);
+            var orderId = await _orderDetailService.AddOrderDetail(od);
+
+            CreatePaymentDto payment = new CreatePaymentDto();
+            payment.OrderDetail = orderId;
+            payment.PatymentMode = od.PatymentMode;
+            payment.PaymentDescription = "Payment Successful";
+            payment.TotalAmount = od.TotalAmount;
+
+            await _paymentService.AddPayment(payment);
             foreach (var item in od.Items)
             {
-                CreateOrderItemDto oi =new CreateOrderItemDto();
+                CreateOrderItemDto oi = new CreateOrderItemDto();
                 oi.OrderDetail = orderId;
                 oi.Item = item.ItemId;
                 oi.Quantity = item.Qty;
@@ -63,6 +70,14 @@ namespace OnlineTiffinSystem.Controllers
             return Json("Order Saved Successfully");
         }
 
+        public async Task<IActionResult>MyOrders()
+        {
+            var customers =await _customerService.GetAllCustomer();
+            var customer = customers.FirstOrDefault(x => x.EmailAddress == User.Identity.Name);
+            ViewBag.OrderItems =await _orderItemService.GetAllOrderItem();
+            var data =await _orderDetailService.GetOrdersByCustomer(customer.CustomerId);
+            return View(data);
+        }
 
     }
 }

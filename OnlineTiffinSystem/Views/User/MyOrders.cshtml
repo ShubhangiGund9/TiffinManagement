@@ -1,0 +1,129 @@
+﻿@model IEnumerable<Project_Model.Models.ResponseOrderDetail>
+
+@{
+    ViewData["Title"] = "My Orders";
+
+    Layout = "~/Views/Shared/_UserLayout.cshtml";
+}
+
+<style>
+
+    .order-card {
+        background: white;
+        border-radius: 18px;
+        padding: 25px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        margin-bottom: 25px;
+    }
+
+    .status-badge {
+        background: #f59e0b;
+        color: white;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    .item-list li {
+        margin-bottom: 8px;
+        font-size: 17px;
+    }
+
+</style>
+
+<div class="container mt-5">
+
+    <h1 class="fw-bold mb-4">
+
+        My Orders
+
+    </h1>
+
+    @foreach (var item in Model)
+    {
+        <div class="order-card">
+
+            <div class="d-flex
+                        justify-content-between
+                        align-items-center
+                        mb-3">
+
+                <h4 class="fw-bold">
+
+                    Order #@item.OrderDetailId
+
+                </h4>
+
+                <span class="status-badge">
+
+                    @item.OrderStatus
+
+                </span>
+
+            </div>
+
+            <hr />
+
+            @{
+                var orderItems =
+                ((List<Project_Model.Models.ResponseOrderItemDto>)
+                ViewBag.OrderItems)
+
+                .Where(x =>
+                x.OrderDetailId ==
+                item.OrderDetailId)
+
+                .ToList();
+            }
+
+            <ul class="item-list">
+
+                @foreach (var oi in orderItems)
+                {
+                    <li>
+
+                        @oi.ItemName
+                        ×
+                        @oi.Quantity
+
+                    </li>
+                }
+
+            </ul>
+
+            <hr />
+
+            <div class="d-flex
+                        justify-content-between">
+
+                <div>
+
+                    <strong>
+
+                        Total :
+
+                    </strong>
+
+                    ₹ @item.TotalAmount
+
+                </div>
+
+                <div>
+
+                    <strong>
+
+                        Date :
+
+                    </strong>
+
+                    @item.OrderAt.ToShortDateString()
+
+                </div>
+
+            </div>
+
+        </div>
+    }
+
+</div>

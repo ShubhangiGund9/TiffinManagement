@@ -30,8 +30,14 @@
                 </div>
 
                 <div class="mb-3">
-                    <label class="fw-bold">Payment Method </label>
-                    <select class="form-control" id="payment"><option>Cash On Delivery</option>
+
+                    <label>Payment Mode</label>
+
+                    <select id="paymentMode" class="form-select">
+
+                        <option>Cash On Delivery</option>
+                        <option>UPI</option>
+
                     </select>
 
                 </div>
@@ -68,6 +74,7 @@
             "DeliveryAddress":document.getElementById("address").value,
             "PinCode":document.getElementById("pincode").value,
             "Landmark":document.getElementById("landmark").value,
+            "PatymentMode":document.getElementById("paymentMode").value,
             "TotalAmount":total,
             "Items":
             cart.map(x => ({

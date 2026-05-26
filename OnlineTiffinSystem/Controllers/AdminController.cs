@@ -194,7 +194,11 @@ namespace OnlineTiffinSystem.Controllers
 
 
             }
-            return View();
+            return RedirectToAction
+ (
+     "EditRole",
+     new { roleid = roleid }
+ );
 
         }
 

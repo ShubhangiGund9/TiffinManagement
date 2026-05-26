@@ -169,7 +169,6 @@
                     @if (signinmanager.IsSignedIn(User))
                     {
                         <ul class="navbar-nav ms-auto">
-
                             <li class="nav-item">
                                 <form asp-controller="Account"
                                       asp-action="Logout"
@@ -179,9 +178,7 @@
 
                                     <button type="submit"
                                             class="nav-link btn btn-link text-white">
-
                                         Logout @User?.Identity?.Name
-
                                     </button>
 
                                 </form>
@@ -197,13 +194,10 @@
                         <ul class="navbar-nav ms-auto">
 
                             <li class="nav-item">
-
                                 <a class="nav-link"
                                    asp-controller="Account"
                                    asp-action="Register">
-
                                     Register
-
                                 </a>
 
                             </li>
@@ -213,9 +207,7 @@
                                 <a class="nav-link"
                                    asp-controller="Account"
                                    asp-action="Login">
-
                                     Login
-
                                 </a>
 
                             </li>
@@ -248,83 +240,63 @@
 
                         <li class="list-group-item">
                             <a href="/AdminArea/Dashboard/Index">
-
                                 Dashboard
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
                             <a href="/AdminArea/MessDetails/Index">
-
                                 Mess Details
-
                             </a>
                         </li>
 
+
                         <li class="list-group-item">
                             <a href="/AdminArea/Categories/Index">
-
                                 Categories
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
                             <a href="/AdminArea/Items/Index">
-
                                 Items
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
                             <a href="/AdminArea/DeliveryCharges/Index">
-
                                 Delivery Charges
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
                             <a href="/AdminArea/Customer/Index">
-
                                 Customers
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
                             <a href="/AdminArea/OrderDetail/Index">
-
                                 OrdersDetails
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
-                            <a href="/AdminArea/Payments/Index">
-
+                            <a href="/AdminArea/Payment/Index">
                                 Payment
-
                             </a>
                         </li>
 
                         <li class="list-group-item">
                             <a href="/AdminArea/SpecialMenuThalis/Index">
-
                                 Special Thali
-
                             </a>
                         </li>
-
                        
 
                         <li class="list-group-item">
                             <a href="/Admin/Index">
-
                                 Manage Roles
-
                             </a>
                         </li>
 
@@ -337,9 +309,7 @@
 
                     <main role="main"
                           class="pb-3">
-
                         @RenderBody()
-
                     </main>
 
                 </div>
@@ -352,9 +322,7 @@
 
                     <main role="main"
                           class="pb-3">
-
                         @RenderBody()
-
                     </main>
 
                 </div>

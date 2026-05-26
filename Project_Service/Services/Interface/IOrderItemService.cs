@@ -12,7 +12,7 @@ namespace Project_Service.Services.Interface
         public Task AddOrderItem(CreateOrderItemDto item);
         public Task DeleteOrderItem(int id);
         public Task UpdateOrderItem(UpdateOrderItemDto item);
-        public Task<List<ResponseOrderItemDto>>GetOrderItemsByOrderId(int id);
+        public Task<List<ResponseOrderItemDto>> GetOrderItemsByOrderId(int id);
 
     }
 }

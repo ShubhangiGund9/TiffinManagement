@@ -1,0 +1,53 @@
+﻿@model IEnumerable<Project_Model.Models.ResponsePaymentDto>
+@{
+    ViewData["Title"] = "Payments";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+
+            <h3>Payment Details</h3>
+
+        </div>
+
+        <div class="card-body">
+
+            <table class="table table-bordered table-striped">
+
+                <thead class="table-dark">
+
+                    <tr>
+                        <th>Payment Id</th>
+                        <th>Customer</th>
+                        <th>Mobile No</th>
+                        <th>Payment Mode</th>
+                        <th>Amount</th>
+                        <th>Order Status</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.PaymentId</td>
+                            <td>@item.CustomerName</td>
+                            <td>@item.MobileNo</td>
+                            <td>@item.PatymentMode</td>
+                            <td>@item.TotalAmount</td>
+                            <td>@item.OrderStatus</td>
+                        </tr>
+                    }
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>

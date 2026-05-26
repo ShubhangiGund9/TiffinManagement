@@ -31,10 +31,12 @@ namespace OnlineTiffinSystem.Areas.AdminArea.Controllers
             return Json("Status Updated Successfully");
         }
 
-        public async Task<IActionResult>ViewItems(int id)
+        public async Task<IActionResult> ViewItems(int id)
         {
-            var data =await _orderItemService.GetOrderItemsByOrderId(id);
+            var data = await _orderItemService.GetOrderItemsByOrderId(id);
             return View(data);
         }
+
+
     }
 }

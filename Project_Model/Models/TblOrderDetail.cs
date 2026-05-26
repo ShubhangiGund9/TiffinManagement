@@ -33,9 +33,8 @@ namespace Project_Model.Models
 
     public class CreateDtoOderDetail
     {
-
-
         public int Customer { get; set; }
+        public string PatymentMode { get; set; }
 
         public string OrderStatus { get; set; }
 

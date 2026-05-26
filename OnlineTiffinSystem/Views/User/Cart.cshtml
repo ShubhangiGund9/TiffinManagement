@@ -1,4 +1,4 @@
-﻿@{
+﻿﻿@{
     ViewData["Title"] = "Cart";
     Layout = "~/Views/Shared/_UserLayout.cshtml";
 }
@@ -76,7 +76,7 @@
             <h1 class="cart-title mb-4">My Cart</h1>
 
             <div id="cartItems">
-                </div>
+            </div>
 
         </div>
 
@@ -186,9 +186,7 @@
     });
 
     document.getElementById("cartItems").innerHTML = cartHtml;
-
     let deliveryCharge = 40;
-
     let finalTotal =subTotal + taxTotal + deliveryCharge;
 
     document.getElementById("subTotal").innerHTML = "₹ " + subTotal;

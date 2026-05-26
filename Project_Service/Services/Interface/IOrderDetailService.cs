@@ -13,6 +13,7 @@ namespace Project_Service.Services.Interface
         public Task DeleteOrderDetail(int id);
 
         public Task UpdateOrderDetail(UpdateDtoOrderDetailItem orderDetail);
+        Task<List<ResponseOrderDetail>>GetOrdersByCustomer(int customerId);
 
     }
 }
