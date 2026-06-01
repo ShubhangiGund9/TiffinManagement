@@ -13,7 +13,8 @@ namespace OnlineTiffinSystem.Controllers
         ISpecialMenuThaliService _specialMenuThaliService;
         IOrderItemService _orderItemService;
         IPaymentService _paymentService;
-        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService, IPaymentService paymentService)
+        IDeliveryChargesService _deliveryChargesService;
+        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService, IPaymentService paymentService,IDeliveryChargesService deliveryChargesService)
         {
             _itemService = itemService;
             _customerService = customerService;
@@ -21,6 +22,7 @@ namespace OnlineTiffinSystem.Controllers
             _specialMenuThaliService = specialMenuThaliService;
             _orderItemService = orderItemService;
             _paymentService = paymentService;
+            _deliveryChargesService = deliveryChargesService;
         }
         public async Task<IActionResult> Menu()
         {
@@ -29,26 +31,38 @@ namespace OnlineTiffinSystem.Controllers
             return View(data);
         }
 
-        public IActionResult Cart()
+        public async Task<IActionResult> Cart()
         {
+            var charge =
+            (await _deliveryChargesService
+            .GetAllDeliveryCharges())
+            .FirstOrDefault();
+
+            ViewBag.DeliveryCharge = charge.Charges;
+
             return View();
         }
-        public IActionResult Checkout()
+        public async Task <IActionResult> Checkout()
         {
+           var charge =(await _deliveryChargesService.GetAllDeliveryCharges()).FirstOrDefault();
+
+            ViewBag.DeliveryCharge = charge.Charges;
+
             return View();
         }
         [HttpPost]
         public async Task<IActionResult> PlaceOrder([FromBody] CreateDtoOderDetail od)
         {
             var customers = await _customerService.GetAllCustomer();
+            var charge =(await _deliveryChargesService.GetAllDeliveryCharges()).FirstOrDefault();
             Console.WriteLine(User.Identity.Name);
 
             var customer = customers.FirstOrDefault(x =>
             x.EmailAddress == User.Identity.Name);
             od.Customer = customer.CustomerId;
             od.OrderStatus = "Pending";
-            od.Charge = 1;
-            od.ExtraCharges = 40;
+            od.Charge = charge.ChargeId;
+            od.ExtraCharges = charge.Charges;
             od.Discount = 0;
             var orderId = await _orderDetailService.AddOrderDetail(od);
 

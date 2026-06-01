@@ -91,3 +91,14 @@ C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\OnlineTiffinSystem\obj\Deb
 C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Shubhangi\Desktop\CrudAll\OnlineTiffinSystem\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Shubhangi\Desktop\online tiffin System\OnlineTiffinSystem\obj\Debug\net8.0\staticwebassets.build.json

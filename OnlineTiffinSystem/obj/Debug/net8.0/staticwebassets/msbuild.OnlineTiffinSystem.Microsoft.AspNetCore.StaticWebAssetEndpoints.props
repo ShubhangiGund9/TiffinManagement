@@ -52,55 +52,55 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Full Jira Rice.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:12:37 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:31:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Full Jira Rice.lfijr9hmrl.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Full Jira Rice.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lfijr9hmrl"},{"Name":"integrity","Value":"sha256-ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Full Jira Rice.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:12:37 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:31:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Gulabjamun.ds03zaunfl.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Gulabjamun.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ds03zaunfl"},{"Name":"integrity","Value":"sha256-vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Gulabjamun.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18320"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:08:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18320"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:30:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Gulabjamun.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Gulabjamun.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18320"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:08:19 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18320"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:30:30 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Half Jira Rice.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Half Jira Rice.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:08:35 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:31:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Half Jira Rice.lfijr9hmrl.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Half Jira Rice.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lfijr9hmrl"},{"Name":"integrity","Value":"sha256-ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Half Jira Rice.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:08:35 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"240120"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:31:03 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Maida Roti.s1wkb59uof.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Maida Roti.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s1wkb59uof"},{"Name":"integrity","Value":"sha256-QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Maida Roti.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10928"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 05:28:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10928"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:32:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Maida Roti.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Maida Roti.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10928"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 05:28:25 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10928"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:32:26 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Paneer.21crdbf3hs.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Paneer.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"21crdbf3hs"},{"Name":"integrity","Value":"sha256-pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Paneer.webp"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9852"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:13:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9852"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:29:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Paneer.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Paneer.jpg'))</AssetFile>
@@ -118,7 +118,7 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Paneer.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9852"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:13:28 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9852"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:29:52 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Papad.0js2hoyfih.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Papad.webp'))</AssetFile>
@@ -136,13 +136,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Plain Dal.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ezx3ooivwf"},{"Name":"integrity","Value":"sha256-NtnxNzPJDkSIQy1QPJZZskHwk9gRpF\u002BsytNpP8hHpm4="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Plain Dal.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"304213"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NtnxNzPJDkSIQy1QPJZZskHwk9gRpF\u002BsytNpP8hHpm4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:06:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"304213"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NtnxNzPJDkSIQy1QPJZZskHwk9gRpF\u002BsytNpP8hHpm4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:33:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Plain Dal.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Plain Dal.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NtnxNzPJDkSIQy1QPJZZskHwk9gRpF\u002BsytNpP8hHpm4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"304213"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NtnxNzPJDkSIQy1QPJZZskHwk9gRpF\u002BsytNpP8hHpm4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 14 May 2026 10:06:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"304213"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022NtnxNzPJDkSIQy1QPJZZskHwk9gRpF\u002BsytNpP8hHpm4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:33:16 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Shrikhand.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Shrikhand.webp'))</AssetFile>
@@ -179,6 +179,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce\u002Bw="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19338"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce\u002Bw=\u0022"},{"Name":"Last-Modified","Value":"Fri, 15 May 2026 05:27:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Wheet roti.kyvq39zh7i.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Wheet roti.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"kyvq39zh7i"},{"Name":"integrity","Value":"sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce\u002Bw="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Wheet roti.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19338"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce\u002Bw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:31:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Wheet roti.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Wheet roti.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce\u002Bw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19338"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce\u002Bw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 05:31:59 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

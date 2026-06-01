@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "rlzvpSJrFYnbNCm5JjBxxGKyXfiy9QKOruIymYSHx04=",
+  "Hash": "hRtL2YxkL6dM022qS5mN0iclWHpne/lmQGwxt4ppUWg=",
   "Source": "Project_Api",
   "BasePath": "_content/Project_Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\OnlineTiffinSystem.csproj",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\OnlineTiffinSystem.csproj",
       "Version": 2,
       "Source": "OnlineTiffinSystem",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "OnlineTiffinSystem\\wwwroot",
       "Source": "OnlineTiffinSystem",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "OnlineTiffinSystem#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -47,13 +47,13 @@
       "Integrity": "k1L2SJ8zU61n12ZhSk4evFbqaE/EPZNz6QJR/hG/PhM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\css\\site.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -68,13 +68,13 @@
       "Integrity": "pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\favicon.ico",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -89,13 +89,13 @@
       "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Aloo Paratha#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -110,13 +110,13 @@
       "Integrity": "n3F3csEXkeOhMTEIekhn+MSNjALcITgUTLI+vLDpcd8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Dal Tadka#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -131,13 +131,13 @@
       "Integrity": "CzpVLJQBUhB70gDGbx6oetwEGpo8xzy7SksRFryX2mY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Full Jira Rice#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -152,13 +152,13 @@
       "Integrity": "ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Gulabjamun#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -173,13 +173,13 @@
       "Integrity": "vTF8CB1QjuhvWg1fWsnulq1U9XLKg1vdIr6iVVHFPPg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Half Jira Rice#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -194,13 +194,13 @@
       "Integrity": "ETOaxK9KDDRzqxctkauj4JT1rUOqxmj5sXgIGx4CIdg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Maida Roti#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -215,13 +215,13 @@
       "Integrity": "QA51mJ0rPRABWqe/CWHFM8L/K7l3ZHenYs4I91/Fhgg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Paneer#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -236,13 +236,13 @@
       "Integrity": "vvN3thtej+1HySv88yaMv2I8V5XN34Vf2Yag/+JYGX4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Paneer#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -257,13 +257,13 @@
       "Integrity": "pl5TUKZzp5MZXAyId0Map25aErovbFcy53tu85WIJJA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Papad#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -278,13 +278,13 @@
       "Integrity": "FBLPJ1iwnHG0gn6JvQeZkCAYiD/bw6BblQzM/j2GmjA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Plain Dal#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "Integrity": "NtnxNzPJDkSIQy1QPJZZskHwk9gRpF+sytNpP8hHpm4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Shrikhand#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -320,13 +320,13 @@
       "Integrity": "B0gPhmYBKzWErsHeA67xO7E2gFpJ0qFMgl8vmJ51cKU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/tiffin-bg#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -341,13 +341,13 @@
       "Integrity": "4veCw7OWl1ik/52tnDmcpI+0vLkbh0djV6z7GE5Vn/M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "images/Wheat Roti#[.{fingerprint}]?.webp",
       "AssetKind": "All",
@@ -362,13 +362,13 @@
       "Integrity": "TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -383,13 +383,13 @@
       "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -404,13 +404,13 @@
       "Integrity": "xlexqj9/k3uobVwGfciZcj/eDdooaNgcf4OFLtLUygM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -425,13 +425,13 @@
       "Integrity": "DRvWr0gangj5/5Q3DRn6ttzpcWDzl3OpHoAwAzNDR5Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -446,13 +446,13 @@
       "Integrity": "z8OR40MowJ8GgK6P89Y+hiJK5+cclzFHzLhFQLL92bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -467,13 +467,13 @@
       "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -488,13 +488,13 @@
       "Integrity": "SZ2mKaD4A+b+HIvttwl+TvLFnVy8o8/X40j+EKVwyvY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -509,13 +509,13 @@
       "Integrity": "VFvmi/ZSwQFmjS6Pry9B8zXeZ/GA168TXLyykDhNMZE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -530,13 +530,13 @@
       "Integrity": "22wR6QTidoeiRZXp6zkRQyMSUb/FB+Av11jqmZJF6uU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -551,13 +551,13 @@
       "Integrity": "j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -572,13 +572,13 @@
       "Integrity": "JtktgiuQAd+AXerCnPMrHCDz1h5AtkH5tobvpuG7xZ4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -593,13 +593,13 @@
       "Integrity": "QO8cMbVkLiktUX1cHeXSUSe5nXMXUgyL9cjwnMyxPqc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -614,13 +614,13 @@
       "Integrity": "ysBT/JYxH9gcMnwxT4+MB4sPxOx/JMg9wi77FA13T9A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -635,13 +635,13 @@
       "Integrity": "72C/qDCGu+OwWeVA03bf9Ke0T8oIozCub0lfJkhzhvE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -656,13 +656,13 @@
       "Integrity": "3vUJkZSpKL/zG7x6GNvDjs0TxYUo9zMt6dAc8hp9CVo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -677,13 +677,13 @@
       "Integrity": "qvA39OMlEs53jaewqVFmE8DQQrio47bZtlTs+Wu6U8g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "Integrity": "O6lb2kXarGgVw4/RDD42yYPhZIwREthThQFKGmD+3j0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -719,13 +719,13 @@
       "Integrity": "NDSZjIiMPRIoO7/w7+jHef8retP4riQa8PMj4BVRGok=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -740,13 +740,13 @@
       "Integrity": "4zbWr0QNFhpUwGkn4WdGWXt80KnhRFv0qXkZyVnhajY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -761,13 +761,13 @@
       "Integrity": "FZG0KxbNqITUi4QY7QvPFRS/TccntMfFWfSTdHN/pws=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -782,13 +782,13 @@
       "Integrity": "z0OApR88UEocYXTXHU7Ueycaiib9XbDUmel9Gx0gbx4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -803,13 +803,13 @@
       "Integrity": "2BbRsE/+czX1ufmDPGpnEieC9u6I3m5BKNDSX1ob3lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -824,13 +824,13 @@
       "Integrity": "8NXw3kF49FkQVPMdjnGDqoXXRU0TwzsLfCGbK9U8gnk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -845,13 +845,13 @@
       "Integrity": "/EdWHN6t5XYPplC88vixGfrBvfEii19kAssb+0YBVU8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -866,13 +866,13 @@
       "Integrity": "a5KlgysZ4fQXw4rzIvXDHErFDPeHRSLccP7kX6HuvSQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -887,13 +887,13 @@
       "Integrity": "GMDk5pA5dFkOimkBAWeEjYZ+7lgHPS0jYln6p/WJVYs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -908,13 +908,13 @@
       "Integrity": "NbFZxZLmBVNLzb/7B0WdFfb6+8jXHGX6XY190uwgbec=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -929,13 +929,13 @@
       "Integrity": "4WIqPof/vrXYO/jeJ4fDOQKUYWIwe64V3d+9/qNju20=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -950,13 +950,13 @@
       "Integrity": "5+ExmMkiaI3keYQRLhNibJ5ZXnNuWRbwrXOAZoTXMFg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -971,13 +971,13 @@
       "Integrity": "p1dop4slefZhL4zG2pa6+2HUrOY1UUArGJXmet8Md9c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -992,13 +992,13 @@
       "Integrity": "peAGH8Gu/ZL9VnbUGSMN69Ji5MxwbvOb53gDXU2cPaQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1013,13 +1013,13 @@
       "Integrity": "puDgKwvlFAord9R8G8of9P2CVYIJUFSoIbjDLEsKEH0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1034,13 +1034,13 @@
       "Integrity": "Wi5ZuFSHLfx6dlEgjvW3BY9TC/1NqdBjj+XFifSSqN4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1055,13 +1055,13 @@
       "Integrity": "02ka4ymoE5yEecLUncLG3/SouTQMnTJOktX+96Pt/88=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1076,13 +1076,13 @@
       "Integrity": "vQTf4d3WJi9vmWQNA4kJnjoedgEhMFXFDEMXqtHtgzk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "Integrity": "gO4uhxfGuK0ONjRlHuwfghGfEXT5azm1oHWnTEFGTfk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1118,13 +1118,13 @@
       "Integrity": "KuvCVS19rfTjoLgMyDDCdOkRRlhNrY4psEM4uezts2M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1139,13 +1139,13 @@
       "Integrity": "xIBBxDPvWhk8/JdaFEZoejadfaKFUfZFwRS1D4Jkuro=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1160,13 +1160,13 @@
       "Integrity": "EuDXUJYKnfZuO8dSLN0f5iVbVasz36AROuAU3NJ3JBo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1181,13 +1181,13 @@
       "Integrity": "CllC/sbLvyLE9cQljmFRlITfqdZRnBv2ysX5LJtl/dg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1202,13 +1202,13 @@
       "Integrity": "Kj4irQWPwfSb5NFeos/h0IroI5/nIg0HtAjQ+w4v6TE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1223,13 +1223,13 @@
       "Integrity": "sPqzWcSS9aRa2gpWTVNQzemajn8hrFjgXPj3j9QItQo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1244,13 +1244,13 @@
       "Integrity": "6IStRQerBchYSw6J2GWTOWGOnDRrWXmaG0r6nCwN5s4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1265,13 +1265,13 @@
       "Integrity": "Qkl5mZUZ64aYBaORRMP9jfD1kz8J6FwiV2M86JDJkdQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1286,13 +1286,13 @@
       "Integrity": "c4Ll6eSIg6Eothk8pCWAF8aE923EvtU11pqjBy+NjNM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1307,13 +1307,13 @@
       "Integrity": "ui/FQI+y0IUsY8Pbi80b8s3GeEL+PsvdaLTONobpn88=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -1328,13 +1328,13 @@
       "Integrity": "ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1349,13 +1349,13 @@
       "Integrity": "H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1370,13 +1370,13 @@
       "Integrity": "/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1391,13 +1391,13 @@
       "Integrity": "OZVI+w57FGwS9boYCZpH1ZSpcP7pYhLu4KtIUvPlZ4I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1412,13 +1412,13 @@
       "Integrity": "hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1433,13 +1433,13 @@
       "Integrity": "4jrcLBsi0Ugm8iLKdqDsAyaCDjkscYZdoGuNH/zqs4E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1454,13 +1454,13 @@
       "Integrity": "N11IyJpHTgDcSCb3AfX4VrBnpGQeem1NoNzzgcXVyCc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1475,13 +1475,13 @@
       "Integrity": "m0l81WDPiG7CcG7CDsTuZzvcGvyFmrQY5DLIxx3aRGw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1496,13 +1496,13 @@
       "Integrity": "JwUksNJ6/R07ZiLRoXbGeNrtlFZMFDKX4hemPiHOmCA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -1517,13 +1517,13 @@
       "Integrity": "geHEkw/WGPdaHQMRq5HuNY9snliNzU/y2OW8ycnhGXw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1538,13 +1538,13 @@
       "Integrity": "wJQaJ0XynBE2fq6CexXXhxKu7fstVmQc7V2MHNTo+WQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1559,13 +1559,13 @@
       "Integrity": "YJa7W8EiQdQpkk93iGEjjnLSUWRpRJbSfzfURh1kxz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "OnlineTiffinSystem",
       "SourceType": "Project",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
       "BasePath": "_content/OnlineTiffinSystem",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -1580,13 +1580,13 @@
       "Integrity": "16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css",
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css",
       "SourceId": "Project_Api",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Project_Api",
       "RelativePath": "Project_Api#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1601,13 +1601,13 @@
       "Integrity": "ICcgTrq9Fs09M8dakttySspZRHVqoClVj+MvldpYSPQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css"
     }
   ],
   "Endpoints": [
     {
       "Route": "_content/OnlineTiffinSystem/css/site.c2tiyv64ts.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1652,7 +1652,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/css/site.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1689,7 +1689,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1734,7 +1734,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/favicon.ico",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1771,7 +1771,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Aloo Paratha.1ochko0ha0.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1816,7 +1816,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Aloo Paratha.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1853,7 +1853,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Dal Tadka.vn7x9zcbxk.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1898,7 +1898,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Dal Tadka.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Dal Tadka.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1935,7 +1935,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Full Jira Rice.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1972,7 +1972,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Full Jira Rice.lfijr9hmrl.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Full Jira Rice.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2017,7 +2017,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Gulabjamun.ds03zaunfl.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2062,7 +2062,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Gulabjamun.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Gulabjamun.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2099,7 +2099,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Half Jira Rice.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2136,7 +2136,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Half Jira Rice.lfijr9hmrl.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Half Jira Rice.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2181,7 +2181,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Maida Roti.s1wkb59uof.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2226,7 +2226,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Maida Roti.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Maida Roti.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2263,7 +2263,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Paneer.21crdbf3hs.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2308,7 +2308,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Paneer.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2345,7 +2345,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Paneer.mezm7s05rm.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2390,7 +2390,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Paneer.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Paneer.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2427,7 +2427,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Papad.0js2hoyfih.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2472,7 +2472,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Papad.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Papad.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2509,7 +2509,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Plain Dal.ezx3ooivwf.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2554,7 +2554,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Plain Dal.jpg",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Plain Dal.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2591,7 +2591,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Shrikhand.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2628,7 +2628,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Shrikhand.xangesiofg.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Shrikhand.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2673,7 +2673,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/tiffin-bg.png",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2710,7 +2710,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/tiffin-bg.yn467dvwst.png",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\tiffin-bg.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2755,7 +2755,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Wheat Roti.kyvq39zh7i.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2800,7 +2800,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/images/Wheat Roti.webp",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheat Roti.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2837,7 +2837,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/js/site.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2874,7 +2874,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2919,7 +2919,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2956,7 +2956,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3001,7 +3001,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3038,7 +3038,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.min.bpk8xqwxhs.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3083,7 +3083,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3120,7 +3120,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3165,7 +3165,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3202,7 +3202,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.mpyigms19s.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3247,7 +3247,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3284,7 +3284,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3329,7 +3329,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3366,7 +3366,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.min.9b9oa1qrmt.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3411,7 +3411,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3448,7 +3448,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3493,7 +3493,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3530,7 +3530,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap.rtl.ve6x09088i.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3575,7 +3575,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3620,7 +3620,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3657,7 +3657,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3694,7 +3694,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3739,7 +3739,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3776,7 +3776,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3821,7 +3821,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3858,7 +3858,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.min.unj9p35syc.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3903,7 +3903,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3940,7 +3940,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3985,7 +3985,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4022,7 +4022,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4059,7 +4059,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4096,7 +4096,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4141,7 +4141,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.n1oizzvkh6.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4186,7 +4186,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-grid.rtl.q2ku51ktnl.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4231,7 +4231,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.7na4sro3qu.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4276,7 +4276,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4313,7 +4313,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4358,7 +4358,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4395,7 +4395,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4432,7 +4432,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4469,7 +4469,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4514,7 +4514,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.min.f8imaxxbri.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4559,7 +4559,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.0wve5yxp74.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4604,7 +4604,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4641,7 +4641,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4686,7 +4686,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4723,7 +4723,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4760,7 +4760,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4797,7 +4797,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4842,7 +4842,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.npxfuf8dg6.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4887,7 +4887,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4924,7 +4924,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4969,7 +4969,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5006,7 +5006,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.min.16095smhkz.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5051,7 +5051,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5088,7 +5088,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5125,7 +5125,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5170,7 +5170,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.b4skse8du6.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5215,7 +5215,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5252,7 +5252,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5297,7 +5297,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5334,7 +5334,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5371,7 +5371,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5416,7 +5416,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5453,7 +5453,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.u3xrusw2ol.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5498,7 +5498,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/css/bootstrap-utilities.tey0rigmnh.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5543,7 +5543,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5580,7 +5580,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5625,7 +5625,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5662,7 +5662,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.l2av4jpuoj.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5707,7 +5707,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.min.25iw1kog22.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5752,7 +5752,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5789,7 +5789,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5834,7 +5834,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5871,7 +5871,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5908,7 +5908,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5953,7 +5953,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5990,7 +5990,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.m39kt2b5c9.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6035,7 +6035,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6072,7 +6072,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6109,7 +6109,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6154,7 +6154,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.esm.min.um2aeqy4ik.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6199,7 +6199,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6236,7 +6236,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6281,7 +6281,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6318,7 +6318,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6355,7 +6355,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6392,7 +6392,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6437,7 +6437,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.min.zwph15dxgs.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6482,7 +6482,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/dist/js/bootstrap.o4kw7cc6tf.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6527,7 +6527,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6564,7 +6564,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6609,7 +6609,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/dist/jquery.fwhahm2icz.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6654,7 +6654,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6691,7 +6691,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6736,7 +6736,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/dist/jquery.min.dd6z7egasc.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6781,7 +6781,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6818,7 +6818,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6855,7 +6855,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6900,7 +6900,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6937,7 +6937,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6982,7 +6982,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7019,7 +7019,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7064,7 +7064,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7101,7 +7101,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7138,7 +7138,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/jquery.validate.min.b7iojwaux1.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7183,7 +7183,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7220,7 +7220,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/dist/jquery.validate.pzqfkb6aqo.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7265,7 +7265,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7302,7 +7302,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7347,7 +7347,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.47otxtyo56.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7392,7 +7392,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7429,7 +7429,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.4v8eqarkd7.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7474,7 +7474,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7511,7 +7511,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7556,7 +7556,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7593,7 +7593,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/OnlineTiffinSystem.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7630,7 +7630,7 @@
     },
     {
       "Route": "_content/OnlineTiffinSystem/OnlineTiffinSystem.fltzygjse4.bundle.scp.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\OnlineTiffinSystem.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7675,7 +7675,7 @@
     },
     {
       "Route": "Project_Api.s94mcfg9wr.styles.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7724,7 +7724,7 @@
     },
     {
       "Route": "Project_Api.styles.css",
-      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\CrudAll\\OnlineTiffinSystem\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\Project_Api\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Project_Api.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {

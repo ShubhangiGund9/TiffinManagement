@@ -13,6 +13,7 @@ wwwroot\images\Plain Dal.jpg
 wwwroot\images\Shrikhand.webp
 wwwroot\images\tiffin-bg.png
 wwwroot\images\Wheat Roti.webp
+wwwroot\images\Wheet roti.webp
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

@@ -2659,7 +2659,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:12:37 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:25 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2696,7 +2696,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:12:37 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:25 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2741,7 +2741,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:19 GMT"
+          "Value": "Mon, 01 Jun 2026 05:30:30 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2786,7 +2786,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:19 GMT"
+          "Value": "Mon, 01 Jun 2026 05:30:30 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2823,7 +2823,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:35 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:03 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2860,7 +2860,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:35 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:03 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2905,7 +2905,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 15 May 2026 05:28:25 GMT"
+          "Value": "Mon, 01 Jun 2026 05:32:26 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2950,7 +2950,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 15 May 2026 05:28:25 GMT"
+          "Value": "Mon, 01 Jun 2026 05:32:26 GMT"
         }
       ],
       "EndpointProperties": [
@@ -2987,7 +2987,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:13:28 GMT"
+          "Value": "Mon, 01 Jun 2026 05:29:52 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3114,7 +3114,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:13:28 GMT"
+          "Value": "Mon, 01 Jun 2026 05:29:52 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3233,7 +3233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:06:00 GMT"
+          "Value": "Mon, 01 Jun 2026 05:33:16 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3278,7 +3278,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:06:00 GMT"
+          "Value": "Mon, 01 Jun 2026 05:33:16 GMT"
         }
       ],
       "EndpointProperties": [
@@ -3443,6 +3443,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 15 May 2026 05:27:07 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w="
+        }
+      ]
+    },
+    {
+      "Route": "images/Wheet roti.kyvq39zh7i.webp",
+      "AssetFile": "images/Wheet roti.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 05:31:59 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyvq39zh7i"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Wheet roti.webp"
+        }
+      ]
+    },
+    {
+      "Route": "images/Wheet roti.webp",
+      "AssetFile": "images/Wheet roti.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 05:31:59 GMT"
         }
       ],
       "EndpointProperties": [

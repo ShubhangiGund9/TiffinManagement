@@ -5,13 +5,9 @@
 }
 
 <div class="container mt-5">
-
     <div class="row justify-content-center">
-
         <div class="col-md-6">
-
             <div class="card shadow p-4 border-0 rounded-4">
-
                 <h2 class="text-center mb-4">Checkout</h2>
 
                 <div class="mb-3">
@@ -34,10 +30,8 @@
                     <label>Payment Mode</label>
 
                     <select id="paymentMode" class="form-select">
-
                         <option>Cash On Delivery</option>
                         <option>UPI</option>
-
                     </select>
 
                 </div>
@@ -58,13 +52,16 @@
 
 <script>
 
-    var cart =JSON.parse(localStorage.getItem("cart")) || [];
+     var deliveryCharge = @ViewBag.DeliveryCharge;
+    var cart = JSON.parse(localStorage.getItem("cart")) || [];
     var total = 0;
+
     cart.forEach(function(item)
     {
-        total +=(item.price * item.qty)+((item.price * item.tax / 100)* item.qty);
+        total += (item.price * item.qty) + ((item.price * item.tax / 100) * item.qty);
     });
-    total += 40;
+
+    total += deliveryCharge;
     document.getElementById("grandTotal").innerHTML = total;
 
     const placeOrder = async () =>

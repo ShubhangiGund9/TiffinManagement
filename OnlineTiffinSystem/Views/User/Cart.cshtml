@@ -95,9 +95,9 @@
 
                 <div class="d-flex justify-content-between mb-3">
 
-                    <span>Delivery Charge</span>
+                    <span>Delivery Charges</span>
 
-                    <span>₹ 40</span>
+                    <span id="deliveryCharge"></span>
 
                 </div>
 
@@ -186,7 +186,8 @@
     });
 
     document.getElementById("cartItems").innerHTML = cartHtml;
-    let deliveryCharge = 40;
+    let deliveryCharge = @ViewBag.DeliveryCharge;
+    document.getElementById("deliveryCharge").innerHTML = "₹ " + deliveryCharge;
     let finalTotal =subTotal + taxTotal + deliveryCharge;
 
     document.getElementById("subTotal").innerHTML = "₹ " + subTotal;

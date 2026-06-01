@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VbPXrq679s9Tn7TtsnlQqf/Bi66U4T5spPUV/l1X0I4=",
+  "Hash": "heTDLnWYMwpv5+pn3vc8npQigshUUtINVZrAdxuayog=",
   "Source": "OnlineTiffinSystem",
   "BasePath": "_content/OnlineTiffinSystem",
   "Mode": "Default",
@@ -1632,6 +1632,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Wheat Roti.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheet roti.webp",
+      "SourceId": "OnlineTiffinSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
+      "BasePath": "_content/OnlineTiffinSystem",
+      "RelativePath": "images/Wheet roti#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kyvq39zh7i",
+      "Integrity": "TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Wheet roti.webp"
     },
     {
       "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\js\\site.js",
@@ -5424,7 +5445,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:12:37 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5461,7 +5482,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:12:37 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5506,7 +5527,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:19 GMT"
+          "Value": "Mon, 01 Jun 2026 05:30:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5551,7 +5572,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:19 GMT"
+          "Value": "Mon, 01 Jun 2026 05:30:30 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5588,7 +5609,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:35 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5625,7 +5646,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:08:35 GMT"
+          "Value": "Mon, 01 Jun 2026 05:31:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5670,7 +5691,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 15 May 2026 05:28:25 GMT"
+          "Value": "Mon, 01 Jun 2026 05:32:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5715,7 +5736,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 15 May 2026 05:28:25 GMT"
+          "Value": "Mon, 01 Jun 2026 05:32:26 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5752,7 +5773,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:13:28 GMT"
+          "Value": "Mon, 01 Jun 2026 05:29:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5879,7 +5900,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:13:28 GMT"
+          "Value": "Mon, 01 Jun 2026 05:29:52 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5998,7 +6019,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:06:00 GMT"
+          "Value": "Mon, 01 Jun 2026 05:33:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6043,7 +6064,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 14 May 2026 10:06:00 GMT"
+          "Value": "Mon, 01 Jun 2026 05:33:16 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6290,6 +6311,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Fri, 15 May 2026 05:27:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w="
+        }
+      ]
+    },
+    {
+      "Route": "images/Wheet roti.kyvq39zh7i.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheet roti.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 05:31:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kyvq39zh7i"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Wheet roti.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w="
+        }
+      ]
+    },
+    {
+      "Route": "images/Wheet roti.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Wheet roti.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19338"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TDugi3We3OcPPDJDmJHNQJ0OqY9RX7sar7uCIOHce+w=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 05:31:59 GMT"
         },
         {
           "Name": "Cache-Control",

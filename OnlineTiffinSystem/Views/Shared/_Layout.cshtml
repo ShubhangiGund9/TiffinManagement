@@ -170,7 +170,8 @@
                     {
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item">
-                                <form asp-controller="Account"
+                                <form asp-area=""
+                                      asp-controller="Account"
                                       asp-action="Logout"
                                       method="post">
 
@@ -211,7 +212,11 @@
                                 </a>
 
                             </li>
-
+                            <li class="nav-item">
+                                <a href="/Admin/Index">
+                                    Manage Roles
+                                </a>
+                            </li>
                         </ul>
                     }
 
@@ -294,11 +299,11 @@
                         </li>
                        
 
-                        <li class="list-group-item">
-                            <a href="/Admin/Index">
-                                Manage Roles
-                            </a>
-                        </li>
+                        @* <li class="list-group-item"> *@
+                        @*     <a href="/Admin/Index"> *@
+                        @*         Manage Roles *@
+                        @*     </a> *@
+                        @* </li> *@
 
                     </ul>
 
