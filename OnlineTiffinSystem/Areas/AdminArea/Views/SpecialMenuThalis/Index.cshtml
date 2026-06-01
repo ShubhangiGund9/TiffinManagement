@@ -35,6 +35,12 @@
                     <label class="fw-bold">Discount</label>
                     @Html.TextBoxFor(e => e.Discount,new{@class = "form-control",placeholder = "Enter Discount"})
                 </div>
+                <div class="card-body">
+                    <label class="fw-bold">Thali Photo</label>
+                    <input type="file"
+                           id="thaliPhoto"
+                           class="form-control" />
+                </div>
                 <hr />
 
                 <div class="card-body">
@@ -89,6 +95,7 @@
                         <th>Date</th>
                         <th>Amount</th>
                         <th>Discount</th>
+                        <th>ThaliPhoto</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -105,6 +112,11 @@
                             <td>@item.Date.ToShortDateString()</td>
                             <td>@item.Amount</td>
                             <td>@item.Discount</td>
+                            <td>
+                                <img src="/images/@item.ThaliPhoto"
+                                     width="200"
+                                     height="150"/>
+                            </td>
                         </tr>
                         i++;
                     }
@@ -139,12 +151,28 @@
 
     const SaveThali = async () =>
     {
+        let imageName = "";
+        let file =document.getElementById("thaliPhoto").files[0];
+        if(file)
+         {
+        let formData = new FormData();
+        formData.append("file", file);
+        const uploadResponse =await fetch('/AdminArea/SpecialMenuThalis/UploadImage',
+        {
+            method:'POST',
+            body: formData
+        });
+
+        imageName = await uploadResponse.json();
+    }
+
         var s =
         {
             title:document.getElementById("Title").value,
             date:document.getElementById("Date").value,
             amount:document.getElementById("Amount").value,
             discount:document.getElementById("Discount").value,
+            thaliPhoto:imageName,
             items:
             items.map(x => ({
                 itemId: x.itemId,

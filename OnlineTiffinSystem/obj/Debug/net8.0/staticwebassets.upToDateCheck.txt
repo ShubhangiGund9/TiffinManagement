@@ -1,5 +1,7 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\images\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg
+wwwroot\images\Aamras.webp
 wwwroot\images\Aloo Paratha.webp
 wwwroot\images\Dal Tadka.webp
 wwwroot\images\Full Jira Rice.jpg

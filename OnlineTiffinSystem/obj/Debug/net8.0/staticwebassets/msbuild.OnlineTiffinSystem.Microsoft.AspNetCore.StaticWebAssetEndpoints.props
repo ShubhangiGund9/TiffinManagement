@@ -24,6 +24,30 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5430"},{"Name":"Content-Type","Value":"image/x-icon"},{"Name":"ETag","Value":"\u0022Jtxf9L\u002B5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 27 Apr 2026 09:58:32 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/59e3cf63-ce4f-4945-a7c8-af27c786acab.4lvmm7kjhh.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"4lvmm7kjhh"},{"Name":"integrity","Value":"sha256-aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"469393"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 07:41:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"469393"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 07:41:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Aamras.1c53n2al2v.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Aamras.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"1c53n2al2v"},{"Name":"integrity","Value":"sha256-PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE="},{"Name":"label","Value":"_content/OnlineTiffinSystem/images/Aamras.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10606"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 07:40:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Aamras.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Aamras.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10606"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 01 Jun 2026 07:40:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/OnlineTiffinSystem/images/Aloo Paratha.1ochko0ha0.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\Aloo Paratha.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

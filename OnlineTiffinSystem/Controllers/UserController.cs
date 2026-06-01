@@ -14,7 +14,8 @@ namespace OnlineTiffinSystem.Controllers
         IOrderItemService _orderItemService;
         IPaymentService _paymentService;
         IDeliveryChargesService _deliveryChargesService;
-        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService, IPaymentService paymentService,IDeliveryChargesService deliveryChargesService)
+        IMenuThaliItemService _menuThaliItemService;
+        public UserController(IItemService itemService, ICustomerService customerService, IOrderDetailService orderDetailService, ISpecialMenuThaliService specialMenuThaliService, IOrderItemService orderItemService, IPaymentService paymentService,IDeliveryChargesService deliveryChargesService,IMenuThaliItemService menuThaliItemService)
         {
             _itemService = itemService;
             _customerService = customerService;
@@ -23,6 +24,7 @@ namespace OnlineTiffinSystem.Controllers
             _orderItemService = orderItemService;
             _paymentService = paymentService;
             _deliveryChargesService = deliveryChargesService;
+            _menuThaliItemService = menuThaliItemService;
         }
         public async Task<IActionResult> Menu()
         {
@@ -75,11 +77,29 @@ namespace OnlineTiffinSystem.Controllers
             await _paymentService.AddPayment(payment);
             foreach (var item in od.Items)
             {
-                CreateOrderItemDto oi = new CreateOrderItemDto();
-                oi.OrderDetail = orderId;
-                oi.Item = item.ItemId;
-                oi.Quantity = item.Qty;
-                await _orderItemService.AddOrderItem(oi);
+                var thaliItems =await _menuThaliItemService.GetMenuThaliItemsByThaliId(item.ItemId);
+
+                if (thaliItems.Any())
+                {
+                    foreach (var t in thaliItems)
+                    {
+                        CreateOrderItemDto oi =new CreateOrderItemDto();
+                        oi.OrderDetail = orderId;
+                        oi.Item = t.Item;
+                        oi.Quantity = t.Quantity * item.Qty;
+                        await _orderItemService.AddOrderItem(oi);
+                    }
+                }
+                else
+                {
+                    CreateOrderItemDto oi =new CreateOrderItemDto();
+
+                    oi.OrderDetail = orderId;
+                    oi.Item = item.ItemId;
+                    oi.Quantity = item.Qty;
+
+                    await _orderItemService.AddOrderItem(oi);
+                }
             }
             return Json("Order Saved Successfully");
         }

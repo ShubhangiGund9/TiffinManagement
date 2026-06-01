@@ -23,7 +23,7 @@ namespace Project_Service.Services.Implemenation
 
         public async Task<int> AddSpecialMenuThali(CreateDtoSpeciaMenuThali specialMenuThali)
         {
-            string query =@"insert into TblSpecialMenuThali(Title,Amount,Discount)output inserted.ThaliId values(@Title,@Amount,@Discount)";
+            string query =@"insert into TblSpecialMenuThali(Title,Amount,Discount,ThaliPhoto)output inserted.ThaliId values(@Title,@Amount,@Discount,@ThaliPhoto)";
 
             using (var con = _context.CreateConnection())
             {
@@ -40,60 +40,33 @@ namespace Project_Service.Services.Implemenation
                 await con.ExecuteAsync(query, new { Id = id });
             }
         }
-        public async Task<List<ResponseSpecialThaliDto>>
-        GetAllSpecialMenuThalis()
+        public async Task<List<ResponseSpecialThaliDto>>GetAllSpecialMenuThalis()
         {
-            string query = @"
-
-    select
-
-    s.ThaliId,
-    s.Title,
-    s.Amount,
-    s.Discount,
-
-    i.ItemName
-
-    from TblSpecialMenuThali s
-
-    inner join TblMenuthaliItem mt
-    on s.ThaliId = mt.Thali
-
-    inner join TblItem i
-    on mt.Item = i.ItemId
-    ";
+            string query = @"select s.ThaliId,s.Title,s.Amount,s.Discount,s.ThaliPhoto,i.ItemName from TblSpecialMenuThali s
+                            inner join TblMenuthaliItem mt
+                            on s.ThaliId = mt.Thali inner join TblItem i
+                            on mt.Item = i.ItemId";
 
             using (var con = _context.CreateConnection())
             {
-                var data =
-                await con.QueryAsync(query);
+                var data =await con.QueryAsync(query);
 
-                List<ResponseSpecialThaliDto> result =
-                new List<ResponseSpecialThaliDto>();
+                List<ResponseSpecialThaliDto> result =new List<ResponseSpecialThaliDto>();
 
                 foreach (var item in data)
                 {
-                    var existing =
-                    result.FirstOrDefault(x =>
-                    x.ThaliId == item.ThaliId);
-
+                    var existing =result.FirstOrDefault(x =>x.ThaliId == item.ThaliId);
                     if (existing == null)
                     {
-                        ResponseSpecialThaliDto t =
-                        new ResponseSpecialThaliDto();
+                        ResponseSpecialThaliDto t =new ResponseSpecialThaliDto();
 
                         t.ThaliId = item.ThaliId;
-
                         t.Title = item.Title;
-
                         t.Amount = item.Amount;
-
                         t.Discount = item.Discount;
-
+                        t.ThaliPhoto = item.ThaliPhoto;
                         t.Items = new List<string>();
-
                         t.Items.Add(item.ItemName);
-
                         result.Add(t);
                     }
                     else
@@ -119,7 +92,7 @@ namespace Project_Service.Services.Implemenation
 
         public async Task UpdateSpecialMenuThali(UpdateDtoSpeciaMenuThali specialMenuThali)
         {
-            string query = @"Update TblSpecialMenuThali set Title=@Title,Amount=@Amount,Discount=Discount where ThaliId=@ThaliId";
+            string query = @"Update TblSpecialMenuThali set Title=@Title,Amount=@Amount,Discount=@Discount,ThaliPhoto=@ThaliPhoto where ThaliId=@ThaliId";
             using (var con = _context.CreateConnection())
             {
                 await con.ExecuteAsync(query,specialMenuThali);

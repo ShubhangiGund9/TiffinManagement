@@ -2469,6 +2469,170 @@
       ]
     },
     {
+      "Route": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.4lvmm7kjhh.jpg",
+      "AssetFile": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:41:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4lvmm7kjhh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA="
+        },
+        {
+          "Name": "label",
+          "Value": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "AssetFile": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:41:17 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Aamras.1c53n2al2v.webp",
+      "AssetFile": "images/Aamras.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:40:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1c53n2al2v"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE="
+        },
+        {
+          "Name": "label",
+          "Value": "images/Aamras.webp"
+        }
+      ]
+    },
+    {
+      "Route": "images/Aamras.webp",
+      "AssetFile": "images/Aamras.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:40:25 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE="
+        }
+      ]
+    },
+    {
       "Route": "images/Aloo Paratha.1ochko0ha0.webp",
       "AssetFile": "images/Aloo Paratha.webp",
       "Selectors": [],

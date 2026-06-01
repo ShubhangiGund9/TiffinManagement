@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "heTDLnWYMwpv5+pn3vc8npQigshUUtINVZrAdxuayog=",
+  "Hash": "zeRiJJhJ08AKpVeEDUk/qMbDeBL69KHsAs6V+J0IDrE=",
   "Source": "OnlineTiffinSystem",
   "BasePath": "_content/OnlineTiffinSystem",
   "Mode": "Default",
@@ -1359,6 +1359,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "SourceId": "OnlineTiffinSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
+      "BasePath": "_content/OnlineTiffinSystem",
+      "RelativePath": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4lvmm7kjhh",
+      "Integrity": "aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aamras.webp",
+      "SourceId": "OnlineTiffinSystem",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\",
+      "BasePath": "_content/OnlineTiffinSystem",
+      "RelativePath": "images/Aamras#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1c53n2al2v",
+      "Integrity": "PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Aamras.webp"
     },
     {
       "Identity": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aloo Paratha.webp",
@@ -5255,6 +5297,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-16aFlqtpsG9RyieKZUUUjkJpqTgcJtWXwT312I4Iz1s="
+        }
+      ]
+    },
+    {
+      "Route": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.4lvmm7kjhh.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:41:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4lvmm7kjhh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA="
+        }
+      ]
+    },
+    {
+      "Route": "images/59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\59e3cf63-ce4f-4945-a7c8-af27c786acab.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "469393"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:41:17 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-aJv/GIcyS8x5JHmL2m3fq6SAj7GXEavSp5wtsF5rjTA="
+        }
+      ]
+    },
+    {
+      "Route": "images/Aamras.1c53n2al2v.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aamras.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:40:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1c53n2al2v"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Aamras.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE="
+        }
+      ]
+    },
+    {
+      "Route": "images/Aamras.webp",
+      "AssetFile": "C:\\Users\\Shubhangi\\Desktop\\online tiffin System\\OnlineTiffinSystem\\wwwroot\\images\\Aamras.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10606"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 01 Jun 2026 07:40:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PyOLdWj70ajz9wUxMoChA18zrfpQ09KGKjCovkE7IoE="
         }
       ]
     },

@@ -15,16 +15,16 @@ namespace Project_Service.Services.Implemenation
         public async Task AddMenuThaliItem(CreateDtoMenuthaliItem item)
         {
             string query = @"Insert into TblMenuThaliItem(Thali,Item,Quantity) values(@Thali,@Item,@Quantity)";
-            using(var con=_context.CreateConnection())
+            using (var con = _context.CreateConnection())
             {
-                await con.ExecuteAsync(query,item);  
+                await con.ExecuteAsync(query, item);
             }
         }
 
         public async Task DeleteMenuThaliItem(int id)
         {
             string query = @"Delete from TblMenuThaliItem where ThaliItemId=@id";
-            using( var con=_context.CreateConnection())
+            using (var con = _context.CreateConnection())
             {
                 await con.ExecuteAsync(query, new { Id = id });
             }
@@ -37,7 +37,7 @@ namespace Project_Service.Services.Implemenation
                            ON mt.Thali = smt.ThaliId JOIN TblItem i ON mt.Item = i.ItemId";
             using (var con = _context.CreateConnection())
             {
-                var result=await con.QueryAsync<ResponseMenuThaliItemDto>(query);
+                var result = await con.QueryAsync<ResponseMenuThaliItemDto>(query);
                 return result.ToList();
             }
         }
@@ -49,7 +49,7 @@ namespace Project_Service.Services.Implemenation
                 ON mt.Thali = smt.ThaliId JOIN TblItem i ON mt.Item = i.ItemId where ThaliItemId=@id";
             using (var con = _context.CreateConnection())
             {
-                var result = await con.QueryFirstOrDefaultAsync<ResponseMenuThaliItemDto>(query,new {Id=id});
+                var result = await con.QueryFirstOrDefaultAsync<ResponseMenuThaliItemDto>(query, new { Id = id });
                 return result;
             }
         }
@@ -59,7 +59,26 @@ namespace Project_Service.Services.Implemenation
             string query = @"Update TblMenuThaliItem set Thali=@Thali,Item=@Item,Quantity=@Quantity where ThaliItemId=@ThaliItemId";
             using (var con = _context.CreateConnection())
             {
-                await con.ExecuteAsync(query,item);
+                await con.ExecuteAsync(query, item);
+            }
+        }
+
+        public async Task<List<TblMenuthaliItem>> GetMenuThaliItemsByThaliId(int thaliId)
+        {
+            string query = @"select * 
+                     from TblMenuThaliItem
+                     where Thali = @ThaliId";
+
+            using (var con = _context.CreateConnection())
+            {
+                var result =
+                await con.QueryAsync<TblMenuthaliItem>
+                (
+                    query,
+                    new { ThaliId = thaliId }
+                );
+
+                return result.ToList();
             }
         }
     }

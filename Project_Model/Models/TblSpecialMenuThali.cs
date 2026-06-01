@@ -11,6 +11,8 @@
         public decimal Amount { get; set; }
 
         public decimal Discount { get; set; }
+
+        public string ThaliPhoto {  get; set; }
     }
 
     public class CreateDtoSpeciaMenuThali
@@ -22,6 +24,7 @@
         public decimal Amount { get; set; }
 
         public decimal Discount { get; set; }
+        public string ThaliPhoto { get; set; }
         public List<ThaliItemDto> Items { get; set; }
 
     }
@@ -37,6 +40,7 @@
         public decimal Amount { get; set; }
 
         public decimal Discount { get; set; }
+        public string ThaliPhoto { get; set; }
     }
     public class ThaliItemDto
     {
@@ -54,6 +58,7 @@
         public decimal Amount { get; set; }
 
         public decimal Discount { get; set; }
+        public string ThaliPhoto { get; set; }
 
         public List<string> Items { get; set; }
         public DateTime Date { get; set; }

@@ -11,5 +11,6 @@ namespace Project_Service.Services.Interface
         public Task AddMenuThaliItem(CreateDtoMenuthaliItem item);
         public Task DeleteMenuThaliItem(int id);
         public Task UpdatMenuThaliItem(UpdateMenuthaliItem item);
+        Task<List<TblMenuthaliItem>> GetMenuThaliItemsByThaliId(int thaliId);
     }
 }
